@@ -1,0 +1,19 @@
+uuid: 620f21a2-d583-4112-9584-d041723c7ddb
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+    - node.type.event
+  module:
+    - gnode
+    - node
+id: daycare-group_node-event
+label: 'Óvoda: Group node (Esemény)'
+description: 'Adds <em class="placeholder">Esemény</em> content to groups both publicly and privately.'
+group_type: daycare
+content_plugin: 'group_node:event'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

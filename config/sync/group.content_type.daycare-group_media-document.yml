@@ -1,0 +1,19 @@
+uuid: e255c50a-2771-4753-9c2e-11593d1ce0ec
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+    - media.type.document
+  module:
+    - groupmedia
+    - media
+id: daycare-group_media-document
+label: 'Óvoda: Group media (Dokumentum)'
+description: 'Adds <em class="placeholder">Dokumentum</em> content to groups both publicly and privately.'
+group_type: daycare
+content_plugin: 'group_media:document'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

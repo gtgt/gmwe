@@ -1,0 +1,14 @@
+uuid: 8878288d-4a0b-4651-ad17-fa951344e9b3
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+id: daycare-outsider
+label: Külsős
+weight: -101
+internal: true
+audience: outsider
+group_type: daycare
+permissions_ui: true
+permissions: {  }

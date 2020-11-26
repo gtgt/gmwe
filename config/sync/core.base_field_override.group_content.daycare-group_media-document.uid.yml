@@ -1,0 +1,20 @@
+uuid: 66063961-be49-4623-a65f-6c9cb6eb8427
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.content_type.daycare-group_media-document
+id: group_content.daycare-group_media-document.uid
+field_name: uid
+entity_type: group_content
+bundle: daycare-group_media-document
+label: 'Group content creator'
+description: 'A csoporttartalom létrehozójának felhasználóneve.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\group\Entity\GroupContent::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

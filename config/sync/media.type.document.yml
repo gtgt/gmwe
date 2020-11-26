@@ -1,0 +1,16 @@
+uuid: d64eab41-b8d7-46c9-97e1-1c3e1b8c3f21
+langcode: hu
+status: true
+dependencies: {  }
+id: document
+label: Dokumentum
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map:
+  name: name
+  mimetype: field_mime
+  filesize: field_size

@@ -1,0 +1,22 @@
+uuid: e9522228-7041-4de4-be8c-72c9c660ac10
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - radix
+_core:
+  default_config_hash: CyX_aDKAka2_eihevNLscCHDYrzDgIqwWzFVEFRKIww
+id: radix_primary_local_tasks
+theme: radix
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Elsődleges fülek'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

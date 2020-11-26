@@ -1,0 +1,18 @@
+uuid: 568e473d-a274-42f0-bae1-1a9a87b6977b
+langcode: hu
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.changed
+field_name: changed
+entity_type: node
+bundle: page
+label: Módosítva
+description: 'Az időpont, mikor a tartalmat utoljára szerkesztették.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,18 @@
+uuid: c41aff24-1cc9-4ec8-877d-bb868a9cd096
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+id: daycare-member
+label: Tag
+weight: -100
+internal: true
+audience: member
+group_type: daycare
+permissions_ui: true
+permissions:
+  - 'access group_event overview'
+  - 'access group_media overview'
+  - 'view group'
+  - 'view group_membership content'

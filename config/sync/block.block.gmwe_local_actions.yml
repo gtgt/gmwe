@@ -1,0 +1,20 @@
+uuid: c4c7f786-5d26-47ef-a82b-225efe110f6f
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - gmwe
+_core:
+  default_config_hash: ik4PTMlBD0MWansnSMpSXq5SUlWRJ1IVVt6C7AIbQmc
+id: gmwe_local_actions
+theme: gmwe
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Elsődleges adminisztrátori műveletek'
+  provider: core
+  label_display: '0'
+visibility: {  }

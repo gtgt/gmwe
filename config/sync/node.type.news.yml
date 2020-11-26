@@ -1,0 +1,17 @@
+uuid: b827e96b-65e6-4a58-941a-a29432ec0d66
+langcode: hu
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Hír / Aktualítás'
+type: news
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

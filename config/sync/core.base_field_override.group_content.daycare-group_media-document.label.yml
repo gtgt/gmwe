@@ -1,0 +1,18 @@
+uuid: cfc952be-0e86-4796-800d-bb4b32ad821a
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.content_type.daycare-group_media-document
+id: group_content.daycare-group_media-document.label
+field_name: label
+entity_type: group_content
+bundle: daycare-group_media-document
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

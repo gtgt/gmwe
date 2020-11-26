@@ -1,0 +1,18 @@
+uuid: 8f6ed1fb-6ec5-41c8-a92d-0bf8f77cd238
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+id: group.daycare.changed
+field_name: changed
+entity_type: group
+bundle: daycare
+label: Megváltoztatva
+description: 'A csoport utolsó szerkesztésének időpontja.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

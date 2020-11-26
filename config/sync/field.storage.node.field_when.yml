@@ -1,0 +1,21 @@
+uuid: ba4926a5-7ac9-48b2-b296-4d9d6ae38b16
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+    - smart_date
+_core:
+  default_config_hash: NywCPIm4tJfbc_ol1P8KtR4GXKLX9mszrM0KGwfte3g
+id: node.field_when
+field_name: field_when
+entity_type: node
+type: smartdate
+settings: {  }
+module: smart_date
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

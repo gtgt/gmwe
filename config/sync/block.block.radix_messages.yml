@@ -1,0 +1,22 @@
+uuid: 1cf21339-84f1-4dc8-8489-a558797eeaf8
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - radix
+_core:
+  default_config_hash: YqKTtloWJ8FjLtfVNfrHaK6kVgxT67lC1cJ3j6i6WLo
+id: radix_messages
+theme: radix
+region: navbar_branding
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Állapotüzenetek
+  provider: system
+  label_display: '0'
+visibility: {  }

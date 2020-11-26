@@ -1,0 +1,18 @@
+uuid: 07db07d7-fe56-4b5a-acac-3c2fb0caeac4
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.content_type.daycare-group_membership
+id: group_content.daycare-group_membership.label
+field_name: label
+entity_type: group_content
+bundle: daycare-group_membership
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

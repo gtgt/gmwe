@@ -1,0 +1,19 @@
+uuid: d13f78a3-e618-475e-8418-8ef8054282b5
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+    - node.type.page
+  module:
+    - gnode
+    - node
+id: daycare-group_node-page
+label: 'Óvoda: Group node (Oldal)'
+description: 'Adds <em class="placeholder">Oldal</em> content to groups both publicly and privately.'
+group_type: daycare
+content_plugin: 'group_node:page'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

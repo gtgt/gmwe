@@ -1,0 +1,19 @@
+uuid: ebcc9e0f-1a4e-4e79-9dd3-2bb94b8e5fc5
+langcode: hu
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: bGxZZFF3KZ6wrBM9gs1atSH4ilcr0rPmwxiMzlcZa3U
+name: Esemény
+type: event
+description: 'Content which describes something happening at a specific time.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

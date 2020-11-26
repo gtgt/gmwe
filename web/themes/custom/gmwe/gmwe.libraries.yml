@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/gmwe.style.css: {}
+  js:
+    assets/js/gmwe.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

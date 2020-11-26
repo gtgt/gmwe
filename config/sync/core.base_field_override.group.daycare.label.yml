@@ -1,0 +1,18 @@
+uuid: 1d8dab8f-84ef-454a-a901-3d998b9a21a4
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+id: group.daycare.label
+field_name: label
+entity_type: group
+bundle: daycare
+label: Név
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

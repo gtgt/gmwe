@@ -1,0 +1,17 @@
+uuid: 99054ec9-80c1-4547-b4a7-22a0b820946b
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+  module:
+    - user
+id: daycare-group_membership
+label: 'Óvoda: Csoporttagság'
+description: 'Adds users to groups as members.'
+group_type: daycare
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

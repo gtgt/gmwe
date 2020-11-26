@@ -1,0 +1,18 @@
+uuid: 8f05c180-dde4-4399-8757-eedff34ec195
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+id: group.daycare.created
+field_name: created
+entity_type: group
+bundle: daycare
+label: Létrehozva
+description: 'A csoport létrehozásának időpontja.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

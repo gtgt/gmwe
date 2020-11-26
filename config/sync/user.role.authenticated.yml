@@ -1,0 +1,14 @@
+uuid: 718ae044-509c-40e2-8be8-0be4603b3b52
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Azonosított felhasználó'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format html'
+  - 'view media'

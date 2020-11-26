@@ -1,0 +1,22 @@
+uuid: 80959495-ca9d-4d9d-9eaf-3d12b16bb851
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - radix
+_core:
+  default_config_hash: DJ7Om1C2xWr2GI8CjZaZtyWpP-0S3hRR3oROZl1oesc
+id: radix_secondary_local_tasks
+theme: radix
+region: navbar_branding
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Másodlagos fülek'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

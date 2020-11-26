@@ -1,0 +1,103 @@
+{#
+/**
+ * @file
+ * Template for the main page.
+ */
+#}
+<div class="page">
+  {% embed '@radix/navbar/navbar.twig' with {
+    placement: 'sticky-top',
+    container: 'fixed',
+    color: 'light',
+    utility_classes: ['bg-light'],
+  } %}
+
+    {% block branding %}
+      {% if page.navbar_branding %}
+        {{ page.navbar_branding }}
+      {% endif %}
+    {% endblock %}
+
+    {% block left %}
+      {% if page.navbar_left %}
+        <div class="mr-auto">
+          {{ page.navbar_left }}
+        </div>
+      {% endif %}
+    {% endblock %}
+
+    {% block right %}
+      {% if page.navbar_right %}
+        {{ page.navbar_right }}
+      {% endif %}
+    {% endblock %}
+  {% endembed %}
+
+  <main class="pb-5">
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm">
+            <h1 class="display-3">Üdvözöljük!</h1>
+
+            <p>Ez a weboldal a Dr. Göllner Mária Waldorf Egyesület oldala.</p>
+
+            {#<p><a class="btn btn-primary btn-lg" href="#">Learn more »</a></p>#}
+          </div>
+
+          <div class="col-sm"><img class="float-right" src="{{ file_url('/themes/custom/gmwe/logo.svg') }}" /></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pb-3"><!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md position-relative pb-5">
+          <h2>Waldorf-kisgyermekkori nevelés?</h2>
+
+          <ul>
+            <li>A szeretet és a melegség</li>
+            <li>Olyan környezet, amely táplálja az érzékszervi nevelést</li>
+            <li>Kreatív és művészi élmények</li>
+            <li>Értelmes felnőtt tevékenység, melyet utánozni lehet</li>
+            <li>Szabad, fantáziadús játék</li>
+            <li>A gyermekkori erők védelmezése</li>
+            <li>hála, tisztelet és csoda</li>
+            <li>Öröm, humor, és boldogság</li>
+            <li>A felnőtt nevelők állandó fejlődési úton legyenek</li>
+          </ul>
+
+          <p><a class="btn btn-secondary position-absolute" style="bottom: 0" href="{{ path('entity.node.canonical', {'node': '3'}) }}">Waldorf pedagógia »</a></p>
+        </div>
+
+        <div class="col-md position-relative pb-5">
+          <h2>Csoportjaink</h2>
+
+          <p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>
+          <p>A Napkeleti Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>
+
+          <p><a class="btn btn-secondary position-absolute" style="bottom: 0" href="#">Ritmusok »</a></p>
+        </div>
+      </div>
+    </div>
+
+
+    {% if page.content %}
+      <div class="page__content">
+        <div class="container">
+          {{ page.content }}
+        </div>
+      </div>
+    {% endif %}
+  </main>
+
+  {% if page.footer %}
+    <footer class="page__footer">
+      <div class="container">
+        <div class="d-flex justify-content-md-between align-items-md-center">
+          {{ page.footer }}
+        </div>
+      </div>
+    </footer>
+  {% endif %}
+</div>

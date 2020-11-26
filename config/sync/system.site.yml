@@ -1,0 +1,14 @@
+uuid: 69aa84cf-6462-4949-bc49-4748263260e5
+name: GMWE
+mail: gt@gtdev.eu
+slogan: 'Dr. Göllner Mária Waldorf Egyesület'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: hu
+default_langcode: hu
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

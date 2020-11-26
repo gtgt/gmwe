@@ -1,0 +1,11 @@
+uuid: f95289ab-c883-4f63-9c13-cd9819d52805
+langcode: hu
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page
+target_entity_type_id: node
+target_bundle: page
+default_langcode: current_interface
+language_alterable: true

@@ -1,0 +1,20 @@
+uuid: f2f549b0-e493-4f1e-a46c-fefbbfb965ae
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+  module:
+    - path
+id: group.daycare.path
+field_name: path
+entity_type: group
+bundle: daycare
+label: Webcímálnév
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

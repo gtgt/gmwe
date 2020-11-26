@@ -1,0 +1,16 @@
+toolbar_items:
+  - devel.container_info.service
+  - devel.elements_page
+  - devel.entity_info_page
+  - devel.field_info_page
+  - devel.cache_clear
+  - devel.run_cron
+  - devel.configs_list
+  - devel.layout_info
+  - devel.menu_rebuild
+  - devel.reinstall
+  - devel.route_info
+  - devel.theme_registry
+_core:
+  default_config_hash: IQjf_ytthngZTAk_MU8-74VecArWD3G5g0oEH6PM6GA
+langcode: hu

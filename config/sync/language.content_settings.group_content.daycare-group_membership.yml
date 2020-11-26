@@ -1,0 +1,11 @@
+uuid: 98345a91-cba9-4776-802c-0d9585098935
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.content_type.daycare-group_membership
+id: group_content.daycare-group_membership
+target_entity_type_id: group_content
+target_bundle: daycare-group_membership
+default_langcode: site_default
+language_alterable: false

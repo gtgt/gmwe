@@ -1,0 +1,22 @@
+uuid: a55c753a-4600-4c35-b608-f84288b9525e
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gmwe
+_core:
+  default_config_hash: 80N66GdzEvwqi1m-_GZ-ulkk8AJG9beoXcZ4-pMVKjI
+id: gmwe_content
+theme: gmwe
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Az oldal fő tartalma'
+  provider: system
+  label_display: '0'
+visibility: {  }

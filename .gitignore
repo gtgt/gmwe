@@ -1,0 +1,11 @@
+# No need to lock composer
+/composer.lock
+
+# node modules
+vendor/
+node_modules/
+
+# Private files
+/private/
+node_modules/
+.DS_Store

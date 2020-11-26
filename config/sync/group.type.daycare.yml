@@ -1,0 +1,11 @@
+uuid: 0b4c2faa-d691-463d-baa3-d44e891fd4e8
+langcode: hu
+status: true
+dependencies: {  }
+id: daycare
+label: Óvoda
+description: ''
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - daycare-admin

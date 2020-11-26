@@ -1,0 +1,20 @@
+uuid: d3d60479-2972-448d-8b26-b013f86e7a2a
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.content_type.daycare-group_membership
+  module:
+    - path
+id: group_content.daycare-group_membership.path
+field_name: path
+entity_type: group_content
+bundle: daycare-group_membership
+label: Webcímálnév
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

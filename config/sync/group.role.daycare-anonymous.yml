@@ -1,0 +1,14 @@
+uuid: a71f319a-8210-46a8-ab82-c302d1128fa8
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.type.daycare
+id: daycare-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: daycare
+permissions_ui: true
+permissions: {  }

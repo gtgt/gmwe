@@ -1,0 +1,20 @@
+uuid: 650eca80-02e7-4cfa-8127-0f2bcd180b19
+langcode: hu
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.name
+field_name: name
+entity_type: media
+bundle: document
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

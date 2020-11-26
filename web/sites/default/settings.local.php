@@ -1,0 +1,22 @@
+<?php
+/** @var string $app_root */
+
+ini_set('display_errors', 1);
+error_reporting(error_reporting() & ~E_DEPRECATED & ~E_USER_DEPRECATED & ~E_STRICT);
+ini_set('upload_max_filesize', '200M');
+ini_set('post_max_size', '200M');
+
+$settings['config_sync_directory'] = $app_root . '/../config/sync';
+
+$settings['hash_salt'] = 'RZ4QfDJg2rnY8rD2PlrUYm86wzqZNm3pHFmt2e3EMhVt32aF1rkbPq_Odqr3j1mCgsd_Nt_Sgw';
+
+$settings['class_loader_auto_detect'] = TRUE;
+
+$settings['file_chmod_directory'] = 0775;
+$settings['file_chmod_file'] = 0664;
+
+$settings['file_private_path'] = $app_root . '/../private';
+
+$settings['trusted_host_patterns'] = [
+  '^gmwe\.hu(\.lo)?$',
+];
