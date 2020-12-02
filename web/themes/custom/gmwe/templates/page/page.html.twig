@@ -33,22 +33,14 @@
     {% endblock %}
   {% endembed %}
 
-  <main class="pb-5">
-    <div class="jumbotron">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-sm">
-            <h1 class="display-3">Üdvözöljük!</h1>
-
-            <p>Ez a weboldal a Dr. Göllner Mária Waldorf Egyesület oldala.</p>
-
-            {#<p><a class="btn btn-primary btn-lg" href="#">Learn more »</a></p>#}
-          </div>
-
-          <div class="col-sm"><img alt="" class="float-right" src="{{ file_url('/themes/custom/gmwe/logo.svg') }}" /></div>
+  <main class="pt-3 pb-5">
+    {% if page.header %}
+      <header class="page__header mb-3">
+        <div class="container">
+          {{ page.header }}
         </div>
-      </div>
-    </div>
+      </header>
+    {% endif %}
 
     {% if page.content %}
       <div class="page__content">

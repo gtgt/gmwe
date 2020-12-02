@@ -14,11 +14,32 @@
   node.bundle|clean_class ~ '--' ~ view_mode|clean_class,
 ]
 %}
+{% if display_submitted %}
+  {%- set title_attributes = title_attributes.addClass('mb-0') %}
+{% endif %}
 <article{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {{ title_suffix }}
 
   {% block content %}
-    {{ content }}
+    {% if teaser %}
+      <h2{{ title_attributes }}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h2>
+    {% endif %}
+
+    {% if display_submitted %}
+      <footer class="blockquote-footer mb-2">
+        {{ author_picture }}
+        <span{{ author_attributes }}>
+          {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+          {{ metadata }}
+        </span>
+      </footer>
+    {% endif %}
+
+    <div{{ content_attributes.addClass('text-justify') }}>
+      {{ content }}
+    </div>
   {% endblock %}
 </article>

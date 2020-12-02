@@ -1,0 +1,15 @@
+form {
+  label {
+    font-weight: 500;
+    &.form-check-label, &.option {
+      font-weight: normal;
+    }
+  }
+  .form-wrapper {
+    margin-bottom: 2rem;
+
+    .form-wrapper {
+      margin-bottom: 0;
+    }
+  }
+}

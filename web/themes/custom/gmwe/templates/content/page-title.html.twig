@@ -1,0 +1,12 @@
+{#$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+
+/**
+ * @file
+ * Template for the page title.
+ */
+#}
+{{ title_prefix }}
+{% if title %}
+  <h1{{ title_attributes.addClass('page-title') }}>{{ title }}</h1>
+{% endif %}
+{{ title_suffix }}
