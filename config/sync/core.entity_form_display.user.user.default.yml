@@ -1,0 +1,52 @@
+uuid: 1b54f58a-e369-45f5-b335-d4be4c806c8d
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.field.user.user.l10n_client_contributor_key
+  module:
+    - field_layout
+    - l10n_client_contributor
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  contact:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  l10n_client_contributor_key:
+    type: l10n_client_contributor_key_widget
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  language:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  timezone:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  entitygroupfield: true
+  langcode: true

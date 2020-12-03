@@ -45,13 +45,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Alkalmaz
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Növekvő
+          sort_desc_label: Csökkenő
       pager:
         type: mini
         options:
@@ -64,12 +64,12 @@ display:
             next: ››
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elemek száma oldalanként'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '– Mind –'
             offset: false
-            offset_label: Offset
+            offset_label: Eltolás
       style:
         type: default
       row:
@@ -243,7 +243,7 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Block
+    display_title: Blokk
     position: 2
     display_options:
       display_extenders: {  }
@@ -385,7 +385,7 @@ display:
       group_by: false
       use_more: true
       use_more_always: true
-      use_more_text: more
+      use_more_text: tovább
       link_display: page_1
       link_url: ''
     cache_metadata:

@@ -1,6 +1,6 @@
 # Ignore configuration files that may contain sensitive information
 /sites/*/*settings.php
-/sites/*/*services*.yml
+/sites/*/default.services.yml
 
 # Ignore paths that may contain user-generated content
 /sites/*/files
@@ -25,7 +25,6 @@
 /sites/README.txt
 /sites/example.sites.php
 /sites/example.settings.local.php
-/sites/development.services.yml
 /.csslintrc
 /.editorconfig
 /.eslintignore

@@ -9,7 +9,7 @@ dependencies:
 _core:
   default_config_hash: za6rNdVPn3HsOOwx2Yka3EmWEkXSdUIlaUpT8qOAxG0
 id: group_nodes
-label: 'Group nodes'
+label: Csoportok
 module: gnode
 description: 'Lists all of the nodes that have been added to a group.'
 tag: ''
@@ -40,13 +40,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Alkalmaz
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Növekvő
+          sort_desc_label: Csökkenő
       pager:
         type: full
         options:
@@ -61,12 +61,12 @@ display:
             last: 'Utolsó »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elemek száma oldalanként'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '– Mind –'
             offset: false
-            offset_label: Offset
+            offset_label: Eltolás
           quantity: 9
       style:
         type: table
@@ -308,7 +308,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Status
+          label: Állapot
           exclude: false
           alter:
             alter_text: false
@@ -354,7 +354,7 @@ display:
           settings:
             format: custom
             format_custom_true: Közzétéve
-            format_custom_false: Unpublished
+            format_custom_false: Rejtett
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -375,7 +375,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Updated
+          label: Frissítve
           exclude: false
           alter:
             alter_text: false
@@ -442,7 +442,7 @@ display:
           relationship: group_content
           group_type: group
           admin_label: 'View relation link'
-          label: 'Link to Group content'
+          label: 'Hivatkozás a csoporttartalomra'
           exclude: true
           alter:
             alter_text: false
@@ -495,7 +495,7 @@ display:
           relationship: group_content
           group_type: group
           admin_label: 'Edit relation link'
-          label: 'Link to edit Group content'
+          label: 'Hivatkozás a csoporttartalom szerkesztéséhez'
           exclude: true
           alter:
             alter_text: false
@@ -546,7 +546,7 @@ display:
           relationship: group_content
           group_type: group
           admin_label: 'Delete relation link'
-          label: 'Link to delete Group content'
+          label: 'Hivatkozás a csoporttartalom törléséhez'
           exclude: true
           alter:
             alter_text: false
@@ -699,7 +699,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: Műveletek
           exclude: false
           alter:
             alter_text: false
@@ -766,7 +766,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: 'Közzétett állapot'
+            label: 'Közzététel állapota'
             description: ''
             use_operator: false
             operator: status_op
@@ -783,7 +783,7 @@ display:
             operator_list: {  }
           is_grouped: true
           group_info:
-            label: 'Közzétett állapot'
+            label: 'Közzététel állapota'
             description: ''
             identifier: status
             optional: true
@@ -798,7 +798,7 @@ display:
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: Rejtett
                 operator: '='
                 value: '0'
           entity_type: node
@@ -817,7 +817,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: Type
+            label: Típus
             description: ''
             use_operator: false
             operator: type_op
@@ -861,7 +861,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'No content available.'
+          content: 'Nincs elérhető tartalom.'
           plugin_id: text_custom
       relationships:
         group_content:
@@ -887,7 +887,7 @@ display:
           exception:
             value: all
             title_enable: false
-            title: All
+            title: Mind
           title_enable: true
           title: '{{ arguments.gid|placeholder }} nodes'
           default_argument_type: fixed
@@ -914,7 +914,7 @@ display:
           entity_field: gid
           plugin_id: numeric
       display_extenders: {  }
-      title: Nodes
+      title: Tartalmak
     cache_metadata:
       max-age: -1
       contexts:
@@ -929,14 +929,14 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: Page
+    display_title: Oldal
     position: 1
     display_options:
       display_extenders: {  }
       path: group/%group/nodes
       menu:
         type: tab
-        title: Nodes
+        title: Tartalmak
         description: ''
         expanded: false
         parent: ''

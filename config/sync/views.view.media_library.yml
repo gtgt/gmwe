@@ -16,9 +16,9 @@ dependencies:
 _core:
   default_config_hash: dHOSWSHbMJNke0ZBGh1O5KrnwynSOCOpQycITW-pwfs
 id: media_library
-label: 'Média könyvtár'
+label: Médiakönyvtár
 module: views
-description: 'Find and manage media.'
+description: 'Média keresés és kezelés.'
 tag: ''
 base_table: media_field_data
 base_field: mid
@@ -47,13 +47,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: 'Apply filters'
+          submit_button: 'Szűrők alkalmazása'
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
           expose_sort_order: false
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Növekvő
+          sort_desc_label: Csökkenő
       pager:
         type: mini
         options:
@@ -63,12 +63,12 @@ display:
           total_pages: null
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elemek száma oldalanként'
             items_per_page_options: '6, 12, 24, 48'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '– Mind –'
             offset: false
-            offset_label: Offset
+            offset_label: Eltolás
           tags:
             previous: ‹‹
             next: ››
@@ -134,7 +134,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Művelet
           include_exclude: exclude
           selected_actions: {  }
           entity_type: media
@@ -204,7 +204,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: 'Publishing status'
+            label: 'Közzététel állapota'
             description: null
             use_operator: false
             operator: status_op
@@ -233,7 +233,7 @@ display:
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: Rejtett
                 operator: '='
                 value: '0'
           plugin_id: boolean
@@ -252,7 +252,7 @@ display:
           exposed: true
           expose:
             operator_id: name_op
-            label: Name
+            label: Név
             description: ''
             use_operator: false
             operator: name_op
@@ -420,7 +420,7 @@ display:
           order: DESC
           exposed: true
           expose:
-            label: 'Newest first'
+            label: 'Legújabb elöl'
           granularity: second
           entity_type: media
           entity_field: created
@@ -435,7 +435,7 @@ display:
           order: ASC
           exposed: true
           expose:
-            label: 'Name (A-Z)'
+            label: 'Név (A-Z)'
           entity_type: media
           entity_field: name
           plugin_id: standard
@@ -449,7 +449,7 @@ display:
           order: DESC
           exposed: true
           expose:
-            label: 'Name (Z-A)'
+            label: 'Név (Z-A)'
           entity_type: media
           entity_field: name
           plugin_id: standard
@@ -466,7 +466,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'No media available.'
+          content: 'Nincs elérhető média.'
           plugin_id: text_custom
       relationships: {  }
       display_extenders: {  }
@@ -485,7 +485,7 @@ display:
   page:
     display_plugin: page
     id: page
-    display_title: Page
+    display_title: Oldal
     position: 1
     display_options:
       display_extenders: {  }
@@ -539,7 +539,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Művelet
           include_exclude: exclude
           selected_actions: {  }
           entity_type: media
@@ -620,7 +620,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: 'Edit {{ name }}'
+            text: '{{ name }} szerkesztése'
             make_link: true
             path: ''
             absolute: false
@@ -628,7 +628,7 @@ display:
             replace_spaces: false
             path_case: none
             trim_whitespace: false
-            alt: 'Edit {{ name }}'
+            alt: '{{ name }} szerkesztése'
             rel: ''
             link_class: ''
             prefix: ''
@@ -782,7 +782,7 @@ display:
   widget:
     display_plugin: page
     id: widget
-    display_title: Widget
+    display_title: 'Felületi elem'
     position: 2
     display_options:
       display_extenders: {  }
@@ -956,7 +956,7 @@ display:
           exposed: true
           expose:
             operator_id: name_op
-            label: Name
+            label: Név
             description: ''
             use_operator: false
             operator: name_op
@@ -1041,7 +1041,7 @@ display:
           exception:
             value: all
             title_enable: false
-            title: All
+            title: Mind
           title_enable: false
           title: ''
           default_argument_type: fixed
@@ -1077,7 +1077,7 @@ display:
           table: views
           field: display_link
           display_id: widget
-          label: Grid
+          label: Rács
           plugin_id: display_link
           empty: true
         display_link_table:
@@ -1085,7 +1085,7 @@ display:
           table: views
           field: display_link
           display_id: widget_table
-          label: Table
+          label: Táblázat
           plugin_id: display_link
           empty: true
       css_class: ''
@@ -1102,7 +1102,7 @@ display:
   widget_table:
     display_plugin: page
     id: widget_table
-    display_title: 'Widget (table)'
+    display_title: 'Felületi elem (táblázat)'
     position: 3
     display_options:
       display_extenders: {  }
@@ -1137,7 +1137,7 @@ display:
           element_class: ''
         thumbnail__target_id:
           id: thumbnail__target_id
-          label: Thumbnail
+          label: Bélyegkép
           table: media_field_data
           field: thumbnail__target_id
           relationship: none
@@ -1150,7 +1150,7 @@ display:
             image_link: ''
         name:
           id: name
-          label: Name
+          label: Név
           table: media_field_data
           field: name
           relationship: none
@@ -1162,7 +1162,7 @@ display:
             link_to_entity: false
         uid:
           id: uid
-          label: Author
+          label: Szerző
           table: media_field_revision
           field: uid
           relationship: none
@@ -1174,7 +1174,7 @@ display:
             link: true
         changed:
           id: changed
-          label: Updated
+          label: Frissítve
           table: media_field_data
           field: changed
           relationship: none
@@ -1244,7 +1244,7 @@ display:
           exposed: true
           expose:
             operator_id: name_op
-            label: Name
+            label: Név
             description: ''
             use_operator: false
             operator: name_op
@@ -1329,7 +1329,7 @@ display:
           exception:
             value: all
             title_enable: false
-            title: All
+            title: Mind
           title_enable: false
           title: ''
           default_argument_type: fixed
@@ -1365,7 +1365,7 @@ display:
           table: views
           field: display_link
           display_id: widget
-          label: Grid
+          label: Rács
           plugin_id: display_link
           empty: true
         display_link_table:
@@ -1373,7 +1373,7 @@ display:
           table: views
           field: display_link
           display_id: widget_table
-          label: Table
+          label: Táblázat
           plugin_id: display_link
           empty: true
       css_class: ''

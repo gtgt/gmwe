@@ -1,0 +1,21 @@
+uuid: ca76b722-667f-4553-86cf-f440b3c9f0bf
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.user.l10n_client_contributor_key
+  module:
+    - l10n_client_contributor
+    - user
+id: user.user.l10n_client_contributor_key
+field_name: l10n_client_contributor_key
+entity_type: user
+bundle: user
+label: 'Localization client contributor API key'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: l10n_client_contributor_key

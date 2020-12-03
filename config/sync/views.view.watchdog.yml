@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: oG4FVrpj6HxivwdvkAyY23ApbR-iWTnKvM4JHdJ6XmA
 id: watchdog
-label: Watchdog
+label: Eseménynapló
 module: views
 description: 'Legutóbbi naplóüzenetek'
 tag: ''
@@ -39,13 +39,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Szűrő
           reset_button: true
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
           expose_sort_order: false
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Növekvő
+          sort_desc_label: Csökkenő
       pager:
         type: mini
         options:
@@ -55,12 +55,12 @@ display:
           total_pages: null
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elemek száma oldalanként'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '– Mind –'
             offset: false
-            offset_label: Offset
+            offset_label: Eltolás
           tags:
             previous: ‹‹
             next: ››
@@ -150,7 +150,7 @@ display:
           field: nothing
           relationship: none
           group_type: group
-          admin_label: Icon
+          admin_label: Ikon
           label: ''
           exclude: false
           alter:
@@ -249,7 +249,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Severity
+          label: Szint
           exclude: true
           alter:
             alter_text: false
@@ -299,7 +299,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Type
+          label: Típus
           exclude: false
           alter:
             alter_text: false
@@ -348,7 +348,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Date
+          label: Dátum
           exclude: false
           alter:
             alter_text: false
@@ -400,7 +400,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Message
+          label: Üzenet
           exclude: false
           alter:
             alter_text: false
@@ -515,7 +515,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: Műveletek
           exclude: false
           alter:
             alter_text: false
@@ -571,7 +571,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: Type
+            label: Típus
             description: ''
             use_operator: false
             operator: type_op
@@ -612,7 +612,7 @@ display:
           exposed: true
           expose:
             operator_id: severity_op
-            label: Severity
+            label: Szint
             description: ''
             use_operator: false
             operator: severity_op
@@ -663,10 +663,10 @@ display:
           field: area_text_custom
           relationship: none
           group_type: group
-          admin_label: 'No log messages available.'
+          admin_label: 'Nincs egyetlen rögzített esemény sem.'
           empty: true
           tokenize: false
-          content: 'No log messages available.'
+          content: 'Nincs egyetlen rögzített esemény sem.'
           plugin_id: text_custom
       relationships:
         uid:
@@ -697,7 +697,7 @@ display:
   page:
     display_plugin: page
     id: page
-    display_title: Page
+    display_title: Oldal
     position: 1
     display_options:
       display_extenders: {  }

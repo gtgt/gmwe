@@ -9,7 +9,7 @@ _core:
 id: user_admin_people
 label: Emberek
 module: user
-description: 'Find and manage people interacting with your site.'
+description: 'A webhellyel kapcsolatban álló emberek keresése és adminisztrációja.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -37,13 +37,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Szűrő
           reset_button: true
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Alaphelyzet
+          exposed_sorts_label: Rendezés
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Növekvő
+          sort_desc_label: Csökkenő
       pager:
         type: full
         options:
@@ -52,18 +52,18 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
+            previous: '‹ Előző'
+            next: 'Következő ›'
+            first: '« Első'
+            last: 'Utolsó »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elemek száma oldalanként'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '– Mind –'
             offset: false
-            offset_label: Offset
+            offset_label: Eltolás
           quantity: 9
       style:
         type: table
@@ -148,7 +148,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Bulk update'
+          label: 'Tömeges frissítés'
           exclude: false
           alter:
             alter_text: false
@@ -198,7 +198,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Felhasználói fióknév'
+          label: Felhasználónév
           exclude: false
           alter:
             alter_text: false
@@ -250,7 +250,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Status
+          label: Állapot
           exclude: false
           alter:
             alter_text: false
@@ -295,8 +295,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_true: Active
-            format_custom_false: Blocked
+            format_custom_true: Aktív
+            format_custom_false: Zárolt
           entity_type: user
           entity_field: status
         roles_target_id:
@@ -357,7 +357,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Member for'
+          label: 'Ennyi ideje tag'
           exclude: false
           alter:
             alter_text: false
@@ -413,7 +413,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Last access'
+          label: 'Utolsó tevékenység'
           exclude: false
           alter:
             alter_text: false
@@ -469,7 +469,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: Műveletek
           exclude: false
           alter:
             alter_text: false
@@ -591,7 +591,7 @@ display:
           exposed: true
           expose:
             operator_id: combine_op
-            label: 'Name or email contains'
+            label: 'Név vagy e-mail tartalmazza'
             description: ''
             use_operator: false
             operator: combine_op
@@ -650,7 +650,7 @@ display:
             operator_list: {  }
           is_grouped: true
           group_info:
-            label: Status
+            label: Állapot
             description: ''
             identifier: status
             optional: true
@@ -661,11 +661,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Active
+                title: Aktív
                 operator: '='
                 value: '1'
               2:
-                title: Blocked
+                title: Zárolt
                 operator: '='
                 value: '0'
           plugin_id: boolean
@@ -726,7 +726,7 @@ display:
           exposed: true
           expose:
             operator_id: permission_op
-            label: Permission
+            label: Jogosultság
             description: ''
             use_operator: false
             operator: permission_op
@@ -864,11 +864,11 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'No people available.'
+          content: 'Nincsenek a webhellyel kapcsolatban álló emberek.'
           plugin_id: text_custom
       use_more: false
       use_more_always: false
-      use_more_text: more
+      use_more_text: tovább
       display_comment: ''
       use_ajax: false
       hide_attachment_summary: false
@@ -894,7 +894,7 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: Page
+    display_title: Oldal
     position: 1
     display_options:
       path: admin/people/list
@@ -902,14 +902,14 @@ display:
       menu:
         type: 'default tab'
         title: Lista
-        description: 'Find and manage people interacting with your site.'
+        description: 'A webhellyel kapcsolatban álló emberek keresése és adminisztrációja.'
         menu_name: admin
         weight: -10
         context: ''
       tab_options:
         type: normal
         title: Emberek
-        description: 'Manage user accounts, roles, and permissions.'
+        description: 'Felhasználói fiókok kezelése, szerepkörök és jogosultságok.'
         menu_name: admin
         weight: 0
       defaults:

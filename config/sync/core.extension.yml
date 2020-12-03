@@ -34,6 +34,7 @@ module:
   groupmedia: 0
   image: 0
   inline_form_errors: 0
+  l10n_client_contributor: 0
   language: 0
   layout_discovery: 0
   link: 0
@@ -61,6 +62,7 @@ module:
   variationcache: 0
   views_ui: 0
   webprofiler: 0
+  xmlrpc: 0
   views: 10
   minimal: 1000
 theme:

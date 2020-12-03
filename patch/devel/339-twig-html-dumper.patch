@@ -1,0 +1,52 @@
+diff --git a/webprofiler/src/Twig/Dumper/HtmlDumper.php b/webprofiler/src/Twig/Dumper/HtmlDumper.php
+index 8e02796..2491a22 100644
+--- a/webprofiler/src/Twig/Dumper/HtmlDumper.php
++++ b/webprofiler/src/Twig/Dumper/HtmlDumper.php
+@@ -2,10 +2,13 @@
+ 
+ namespace Drupal\webprofiler\Twig\Dumper;
+ 
++use Twig\Profiler\Dumper\BaseDumper;
++use Twig\Profiler\Profile;
++
+ /**
+  * Class HtmlDumper.
+  */
+-class HtmlDumper extends \Twig_Profiler_Dumper_Text {
++class HtmlDumper extends BaseDumper {
+ 
+   private static $colors = [
+     'block' => '#dfd',
+@@ -17,28 +20,28 @@ class HtmlDumper extends \Twig_Profiler_Dumper_Text {
+   /**
+    * {@inheritdoc}
+    */
+-  public function dump(\Twig_Profiler_Profile $profile) {
++  public function dump(Profile $profile) {
+     return '<pre class="h--word-intact"><code class="code--json">' . parent::dump($profile) . '</code></pre>';
+   }
+ 
+   /**
+    *
+    */
+-  protected function formatTemplate(\Twig_Profiler_Profile $profile, $prefix) {
++  protected function formatTemplate(Profile $profile, $prefix) {
+     return sprintf('%s└ <span style="background-color: %s">%s</span>', $prefix, self::$colors['template'], $profile->getTemplate());
+   }
+ 
+   /**
+    *
+    */
+-  protected function formatNonTemplate(\Twig_Profiler_Profile $profile, $prefix) {
++  protected function formatNonTemplate(Profile $profile, $prefix) {
+     return sprintf('%s└ %s::%s(<span style="background-color: %s">%s</span>)', $prefix, $profile->getTemplate(), $profile->getType(), isset(self::$colors[$profile->getType()]) ? self::$colors[$profile->getType()] : 'auto', $profile->getName());
+   }
+ 
+   /**
+    *
+    */
+-  protected function formatTime(\Twig_Profiler_Profile $profile, $percent) {
++  protected function formatTime(Profile $profile, $percent) {
+     return sprintf('<span style="color: %s">%.2fms/%.0f%%</span>', $percent > 20 ? self::$colors['big'] : 'auto', $profile->getDuration() * 1000, $percent);
+   }
+ 

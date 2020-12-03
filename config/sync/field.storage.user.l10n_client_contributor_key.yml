@@ -1,0 +1,22 @@
+uuid: 15e354d4-ae08-44b2-93f4-bdf9547659ef
+langcode: hu
+status: true
+dependencies:
+  module:
+    - l10n_client_contributor
+    - user
+id: user.l10n_client_contributor_key
+field_name: l10n_client_contributor_key
+entity_type: user
+type: l10n_client_contributor_key
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: l10n_client_contributor
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
