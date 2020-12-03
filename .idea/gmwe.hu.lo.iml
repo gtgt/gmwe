@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/web/themes/custom/gmwe/node_modules/bootstrap/scss" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/web/themes/custom/gmwe/node_modules/bootstrap/js/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/asm89/stack-cors" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/caxy/php-htmldiff" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/chi-teck/drupal-code-generator" />
@@ -95,7 +97,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/webflo/drupal-finder" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/path-util" />
+      <excludeFolder url="file://$MODULE_DIR$/web/core/themes" />
       <excludeFolder url="file://$MODULE_DIR$/web/sites/default/files" />
+      <excludeFolder url="file://$MODULE_DIR$/web/themes/contrib/radix/src/kits" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

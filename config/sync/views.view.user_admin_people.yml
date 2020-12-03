@@ -198,7 +198,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Username
+          label: 'Felhasználói fióknév'
           exclude: false
           alter:
             alter_text: false

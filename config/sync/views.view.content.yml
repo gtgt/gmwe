@@ -40,10 +40,10 @@ display:
         options:
           items_per_page: 50
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
+            previous: '‹ Előző'
+            next: 'Következő ›'
+            first: '« Első'
+            last: 'Utolsó »'
       style:
         type: table
         options:
@@ -160,7 +160,7 @@ display:
           id: title
           table: node_field_data
           field: title
-          label: Title
+          label: Cím
           exclude: false
           alter:
             alter_text: false
@@ -183,7 +183,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Content type'
+          label: Tartalomtípus
           exclude: false
           alter:
             alter_text: false
@@ -277,7 +277,7 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_true: Published
+            format_custom_true: Közzétéve
             format_custom_false: Unpublished
           plugin_id: field
           entity_type: node
@@ -368,7 +368,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: Title
+            label: Cím
             description: ''
             use_operator: false
             operator: title_op
@@ -410,7 +410,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: 'Content type'
+            label: Tartalomtípus
             description: ''
             use_operator: false
             operator: type_op
@@ -467,7 +467,7 @@ display:
             operator_list: {  }
           is_grouped: true
           group_info:
-            label: 'Published status'
+            label: 'Közzétett állapot'
             description: ''
             identifier: status
             optional: true
@@ -478,7 +478,7 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Közzétéve
                 operator: '='
                 value: '1'
               2:
@@ -501,7 +501,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Nyelv
             description: ''
             use_operator: false
             operator: langcode_op

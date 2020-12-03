@@ -1,0 +1,21 @@
+uuid: e0b98189-4450-4278-a3d8-e6a7f45a8788
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recommendation
+    - node.type.page
+  module:
+    - text
+id: node.page.field_recommendation
+field_name: field_recommendation
+entity_type: node
+bundle: page
+label: 'Főoldali ajánló'
+description: 'Ha ide szöveg van írva, és a főoldalon való megjelenés be van kapcsolva, akkor a tartalom a főoldalon megjelenik az ajánló részen,'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

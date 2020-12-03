@@ -1,0 +1,10 @@
+uuid: 72ec4f50-a6d9-45c3-a759-d873a123633c
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+id: node.recommendation
+label: 'Főoldali ajánló'
+targetEntityType: node
+cache: true

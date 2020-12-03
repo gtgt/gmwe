@@ -764,7 +764,7 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Közzétéve
                 operator: '='
                 value: '1'
               2:

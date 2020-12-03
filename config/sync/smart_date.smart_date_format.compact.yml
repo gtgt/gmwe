@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: 3k0ojgMLZae-f358WLWxfKYddQPSaQSnIdAKiYw2wnY
 id: compact
-label: Compact
+label: Tömör
 date_format: 'M j Y'
 time_format: 'g:ia'
 time_hour_format: ga

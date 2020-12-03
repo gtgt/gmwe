@@ -159,7 +159,7 @@ display:
           relationship: gc__user
           group_type: group
           admin_label: ''
-          label: User
+          label: Felhasználó
           exclude: false
           alter:
             alter_text: false

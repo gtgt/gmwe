@@ -57,8 +57,8 @@ display:
           tags:
             previous: ‹‹
             next: ››
-            first: '« First'
-            last: 'Last »'
+            first: '« Első'
+            last: 'Utolsó »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -178,7 +178,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Title
+          label: Cím
           exclude: false
           alter:
             alter_text: false
@@ -243,7 +243,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Content type'
+          label: Tartalomtípus
           exclude: false
           alter:
             alter_text: false
@@ -353,7 +353,7 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_true: Published
+            format_custom_true: Közzétéve
             format_custom_false: Unpublished
           group_column: value
           group_columns: {  }
@@ -766,7 +766,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: 'Published status'
+            label: 'Közzétett állapot'
             description: ''
             use_operator: false
             operator: status_op
@@ -783,7 +783,7 @@ display:
             operator_list: {  }
           is_grouped: true
           group_info:
-            label: 'Published status'
+            label: 'Közzétett állapot'
             description: ''
             identifier: status
             optional: true
@@ -794,7 +794,7 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Közzétéve
                 operator: '='
                 value: '1'
               2:

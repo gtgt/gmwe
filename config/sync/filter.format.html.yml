@@ -21,7 +21,7 @@ filters:
     status: true
     weight: 3
     settings:
-      allowed_html: '<a href hreflang class> <em> <strong> <cite> <blockquote cite> <code> <ul class type> <ol class type start> <li> <dl> <dt> <dd> <h1 id class> <h2 id class> <h3 id class> <h4 id class> <h5 id class> <h6 id class> <img class src alt data-entity-type data-entity-uuid data-align data-caption> <drupal-media data-entity-type data-entity-uuid> <p class> <div id class="">'
+      allowed_html: '<a href hreflang class=""> <em> <strong> <cite> <blockquote cite> <code> <ul type class=""> <ol type start class=""> <li> <dl> <dt> <dd> <h1 id class=""> <h3 id class=""> <h4 id class=""> <h5 id class=""> <h6 id class=""> <img src alt data-entity-type data-entity-uuid data-align data-caption class=""> <p class=""> <div id class=""> <u> <s> <sup> <sub> <h2 id class=" title"> <hr> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <span lang dir>'
       filter_html_help: true
       filter_html_nofollow: false
   media_embed:
@@ -31,7 +31,8 @@ filters:
     weight: 2
     settings:
       default_view_mode: default
-      allowed_media_types: {  }
+      allowed_media_types:
+        document: document
       allowed_view_modes: {  }
   filter_align:
     id: filter_align

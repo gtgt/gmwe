@@ -1,0 +1,16 @@
+{
+  "namespaces": [
+    {
+      "namespace": "radix",
+      "path": "web/themes/contrib/radix/src/components"
+    },
+    {
+      "namespace": "gmwe",
+      "path": "web/themes/custom/gmwe/src/components"
+    },
+    {
+      "namespace": "adminimal_theme",
+      "path": "web/themes/contrib/adminimal_theme/templates"
+    }
+  ]
+}

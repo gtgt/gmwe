@@ -15,8 +15,27 @@ settings:
         -
           name: Formázás
           items:
+            - Styles
             - Bold
+            - Underline
             - Italic
+            - Strike
+            - Superscript
+            - Subscript
+        -
+          name: History
+          items:
+            - Undo
+            - Redo
+        -
+          name: Order
+          items:
+            - JustifyBlock
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - Outdent
+            - Indent
         -
           name: Hivatkozások
           items:
@@ -30,17 +49,26 @@ settings:
         -
           name: Media
           items:
-            - Blockquote
+            - DrupalMediaLibrary
             - DrupalImage
+        -
+          name: Others
+          items:
+            - Blockquote
+            - HorizontalRule
+            - SpecialChar
+            - Table
         -
           name: Tools
           items:
+            - RemoveFormat
+            - ShowBlocks
             - Source
   plugins:
     language:
       language_list: un
     stylescombo:
-      styles: ''
+      styles: 'h2.title|Cím 2'
 image_upload:
   status: true
   scheme: public

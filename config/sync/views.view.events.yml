@@ -437,7 +437,7 @@ display:
     display_options:
       display_extenders: {  }
       path: events/past
-      title: 'Past Events'
+      title: 'Korábbi események'
       defaults:
         title: false
         filters: false

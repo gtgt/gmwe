@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_recommendation
     - node.type.page
   module:
     - field_layout
@@ -36,6 +37,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_recommendation:
+    weight: 122
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
   langcode:
     type: language_select
     weight: 2
@@ -88,4 +97,5 @@ content:
       match_limit: 10
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  entitygroupfield: true

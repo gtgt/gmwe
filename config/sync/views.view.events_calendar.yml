@@ -14,7 +14,7 @@ dependencies:
 _core:
   default_config_hash: uZaGJj5M9S1r0PHCjxHJrNTeRNQUIg_UaN87NqOa4xY
 id: events_calendar
-label: 'Events Calendar'
+label: Naptár
 module: views
 description: ''
 tag: ''
@@ -228,7 +228,7 @@ display:
             operator_limit_selection: false
             operator_list: {  }
       sorts: {  }
-      title: 'Events Calendar'
+      title: Naptár
       header:
         add_content_by_bundle:
           id: add_content_by_bundle

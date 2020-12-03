@@ -218,7 +218,7 @@ display:
             operator_list: {  }
           is_grouped: true
           group_info:
-            label: Published
+            label: Közzétéve
             description: ''
             identifier: status
             optional: true
@@ -229,7 +229,7 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Közzétéve
                 operator: '='
                 value: '1'
               2:
@@ -379,7 +379,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Nyelv
             description: ''
             use_operator: false
             operator: langcode_op

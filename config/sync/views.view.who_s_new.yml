@@ -185,7 +185,7 @@ display:
     display_options:
       display_description: 'A list of new users'
       block_description: 'Who''s new'
-      block_category: User
+      block_category: Felhasználó
       display_extenders: {  }
     cache_metadata:
       contexts:

@@ -1,0 +1,41 @@
+uuid: 25a3a406-e280-49f8-a6f5-2bcc2d82d9a1
+langcode: hu
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.recommendation
+    - field.field.node.page.body
+    - field.field.node.page.field_recommendation
+    - node.type.page
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.page.recommendation
+targetEntityType: node
+bundle: page
+mode: recommendation
+content:
+  field_recommendation:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  entitygroupfield: true
+  langcode: true
+  layout_builder__layout: true
