@@ -2,8 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/web/libraries/d3" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/web/libraries/highlightjs" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/web/modules/contrib/front" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/libraries/d3" vcs="" />
+    <mapping directory="$PROJECT_DIR$/web/libraries/highlightjs" vcs="" />
   </component>
 </project>
