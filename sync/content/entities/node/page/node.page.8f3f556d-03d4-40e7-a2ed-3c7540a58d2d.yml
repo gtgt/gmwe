@@ -1,0 +1,68 @@
+uuid:
+  -
+    value: 8f3f556d-03d4-40e7-a2ed-3c7540a58d2d
+langcode:
+  -
+    value: hu
+type:
+  -
+    target_id: page
+    target_type: node_type
+    target_uuid: ec8b6583-d081-4336-bf12-30e06a436572
+revision_timestamp:
+  -
+    value: '2020-11-23T23:26:48+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+title:
+  -
+    value: Jelentkezés
+created:
+  -
+    value: '2020-11-23T23:25:52+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2020-12-03T09:12:20+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: false
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+entitygroupfield: {  }
+body:
+  -
+    value: "<div class=\"txtNew\" id=\"WRchTxt-7afd4b6-3731-dc57-876f-12128314ab2e\">\r\n<h2 class=\"title\"><span><span>Kedves Érdeklődő!</span></span></h2>\r\n\r\n<p>Az Dr. Göllner Mária Waldorf Egyesület Óvoda minden év tavaszán várja az új gyermekek jelentkezését. A jelentkezés határidejéről és a beiratkozás időpontjáról külön hirdetményben értesítünk benneteket.</p>\r\n\r\n<p>Akik szívesen csatlakoznának hozzánk, azoktól várjuk az alábbi linkről letölthető, kitöltött jelentkezési lapot e-mailben vagy postai úton:</p>\r\n\r\n<p>A jelentkezési lap mellett kérjük továbbá a szülői felügyeleti jogról szóló nyilatkozat elküldését is.</p>\r\n\r\n<p>Az óvodával kapcsolatos kérdésekre szívesen válaszolunk az alábbi elérhetőségeken:</p>\r\n\r\n<h2 class=\"title\">Óvodalátogatás</h2>\r\n\r\n<p>Előzetes időpont-egyeztetés alapján el tudtok látogatni hozzánk megnézni az óvodánkat és beszélgetni az óvónőkkel.</p>\r\n\r\n<p>Az óvodában azonban csak az óvodai életen kívül (alvásidőben vagy a nap lezárása után) tudunk érdeklődőket fogadni, hogy ne zavarjuk meg a gyermekeket, és az óvónők teljes jelenlétükkel a csoport felé tudjanak fordulni.</p>\r\n\r\n<p>Folyamatosan követjük a járványügyi intézkedéseket, melyek kihatnak a látogatás és a beiratkozás folyamatára is.&nbsp; Az óvónőkkel való egyeztetés során informálódhattok arról, hogy az aktuális szabályozások hogyan engedik vagy korlátozzák a fentiek megvalósulását.</p>\r\n\r\n<p>Köszönjük a megértéseteket!</p>\r\n</div>\r\n"
+    format: html
+    processed: "<div class=\"txtNew\" id=\"WRchTxt-7afd4b6-3731-dc57-876f-12128314ab2e\">\n<h2 class=\"title\"><span><span>Kedves Érdeklődő!</span></span></h2>\n\n<p>Az Dr. Göllner Mária Waldorf Egyesület Óvoda minden év tavaszán várja az új gyermekek jelentkezését. A jelentkezés határidejéről és a beiratkozás időpontjáról külön hirdetményben értesítünk benneteket.</p>\n\n<p>Akik szívesen csatlakoznának hozzánk, azoktól várjuk az alábbi linkről letölthető, kitöltött jelentkezési lapot e-mailben vagy postai úton:</p>\n\n<p>A jelentkezési lap mellett kérjük továbbá a szülői felügyeleti jogról szóló nyilatkozat elküldését is.</p>\n\n<p>Az óvodával kapcsolatos kérdésekre szívesen válaszolunk az alábbi elérhetőségeken:</p>\n\n<h2 class=\"title\">Óvodalátogatás</h2>\n\n<p>Előzetes időpont-egyeztetés alapján el tudtok látogatni hozzánk megnézni az óvodánkat és beszélgetni az óvónőkkel.</p>\n\n<p>Az óvodában azonban csak az óvodai életen kívül (alvásidőben vagy a nap lezárása után) tudunk érdeklődőket fogadni, hogy ne zavarjuk meg a gyermekeket, és az óvónők teljes jelenlétükkel a csoport felé tudjanak fordulni.</p>\n\n<p>Folyamatosan követjük a járványügyi intézkedéseket, melyek kihatnak a látogatás és a beiratkozás folyamatára is.\_ Az óvónőkkel való egyeztetés során informálódhattok arról, hogy az aktuális szabályozások hogyan engedik vagy korlátozzák a fentiek megvalósulását.</p>\n\n<p>Köszönjük a megértéseteket!</p>\n</div>"
+    summary: ''
+    summary_processed: ''
+field_recommendation: {  }
+field_showcase_picture: {  }
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
+path:
+  -
+    alias: /jelentkezes

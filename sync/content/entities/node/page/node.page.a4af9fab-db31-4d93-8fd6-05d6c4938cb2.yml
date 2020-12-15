@@ -1,0 +1,72 @@
+uuid:
+  -
+    value: a4af9fab-db31-4d93-8fd6-05d6c4938cb2
+langcode:
+  -
+    value: hu
+type:
+  -
+    target_id: page
+    target_type: node_type
+    target_uuid: ec8b6583-d081-4336-bf12-30e06a436572
+revision_timestamp:
+  -
+    value: '2020-11-27T16:02:30+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+title:
+  -
+    value: Csoportjaink
+created:
+  -
+    value: '2020-11-27T16:01:41+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2020-11-30T10:00:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: true
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+entitygroupfield: {  }
+body:
+  -
+    value: "<div class=\"txtNew\" id=\"WRchTxt-e775afe5-d4d3-7343-3fe6-4db435aa4516\">\r\n<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\r\n\r\n<p>Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>\r\n</div>\r\n"
+    format: html
+    processed: "<div class=\"txtNew\" id=\"WRchTxt-e775afe5-d4d3-7343-3fe6-4db435aa4516\">\n<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\n\n<p>Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>\n</div>"
+    summary: ''
+    summary_processed: ''
+field_recommendation:
+  -
+    value: "<h2>Csoportjaink</h2>\r\n\r\n<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\r\n\r\n<p>A Napkeleti Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>\r\n"
+    format: html
+    processed: "<h2>Csoportjaink</h2>\n\n<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\n\n<p>A Napkeleti Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>"
+field_showcase_picture: {  }
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
+path:
+  -
+    alias: /csoportjaink

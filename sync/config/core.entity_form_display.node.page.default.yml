@@ -5,9 +5,12 @@ dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_recommendation
+    - field.field.node.page.field_showcase_picture
+    - image.style.thumbnail
     - node.type.page
   module:
     - field_layout
+    - image
     - layout_discovery
     - path
     - text
@@ -44,6 +47,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+    region: content
+  field_showcase_picture:
+    weight: 123
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   langcode:
     type: language_select

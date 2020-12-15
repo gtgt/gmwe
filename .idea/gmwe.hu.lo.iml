@@ -102,6 +102,7 @@
       <excludeFolder url="file://$MODULE_DIR$/web/core/themes" />
       <excludeFolder url="file://$MODULE_DIR$/web/sites/default/files" />
       <excludeFolder url="file://$MODULE_DIR$/web/themes/contrib/radix/src/kits" />
+      <excludeFolder url="file://$MODULE_DIR$/theme" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

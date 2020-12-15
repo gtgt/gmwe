@@ -18091,15 +18091,32 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-(function () {
+(function ($, Drupal, window) {
   'use strict';
 
-  Drupal.behaviors.helloWorld = {
+  Drupal.behaviors.themeInit = {
     attach: function attach(context) {
-      console.log('Hello World');
+      if (context.nodeName !== '#document') {
+        return;
+      }
+
+      var $nav = $('nav.navbar', context);
+
+      if ($nav.length) {
+        var height = 140; //$nav.outerHeight();
+        // Toggle .header-scrolled class to #header when page is scrolled
+
+        $(context).on('scroll', function () {
+          if ($(context).scrollTop() > height) {
+            $nav.removeClass('bg-transparent');
+          } else {
+            $nav.addClass('bg-transparent');
+          }
+        }).triggerHandler('scroll');
+      }
     }
   };
-})(jQuery, Drupal);
+})(jQuery, Drupal, window);
 
 /***/ }),
 

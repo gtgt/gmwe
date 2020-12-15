@@ -1,10 +1,12 @@
-uuid: ea35bbca-0012-4f6e-9f6c-cb79f49375de
+uuid: 6ebaf9c7-9c54-4f19-a059-1e550995e301
 langcode: hu
-status: true
+status: false
 dependencies:
   config:
+    - core.entity_view_mode.node.teaser
     - field.field.node.page.body
     - field.field.node.page.field_recommendation
+    - field.field.node.page.field_showcase_picture
     - node.type.page
   module:
     - field_layout
@@ -16,16 +18,17 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
-id: node.page.default
+id: node.page.teaser
 targetEntityType: node
 bundle: page
-mode: default
+mode: teaser
 content:
   body:
     label: hidden
-    type: text_default
+    type: text_summary_or_trimmed
     weight: 0
-    settings: {  }
+    settings:
+      trim_length: 600
     third_party_settings: {  }
     region: content
   links:
@@ -36,5 +39,5 @@ content:
 hidden:
   entitygroupfield: true
   field_recommendation: true
+  field_showcase_picture: true
   langcode: true
-  layout_builder__layout: true

@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 8ee8e5ab-9f71-4e4a-959b-1af2f9abf87d
+langcode:
+  -
+    value: hu
+path:
+  -
+    value: /node/1
+alias:
+  -
+    value: /jelentkezes
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 7a005cfe-2b0c-469e-8e43-00f2d0c7d792
+langcode:
+  -
+    value: hu
+path:
+  -
+    value: /node/5
+alias:
+  -
+    value: /csoportjaink
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

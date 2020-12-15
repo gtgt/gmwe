@@ -9,3 +9,5 @@ node_modules/
 /private/
 node_modules/
 .DS_Store
+
+web/themes/custom/apigee_kickstart

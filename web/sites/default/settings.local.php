@@ -6,7 +6,10 @@ error_reporting(error_reporting() & ~E_DEPRECATED & ~E_USER_DEPRECATED & ~E_STRI
 ini_set('upload_max_filesize', '200M');
 ini_set('post_max_size', '200M');
 
-$settings['config_sync_directory'] = $app_root . '/../config/sync';
+$settings['config_sync_directory'] = $app_root . '/../sync/config';
+
+global $content_directories;
+$content_directories['sync'] = $app_root.'/../sync/content';
 
 $settings['hash_salt'] = 'RZ4QfDJg2rnY8rD2PlrUYm86wzqZNm3pHFmt2e3EMhVt32aF1rkbPq_Odqr3j1mCgsd_Nt_Sgw';
 

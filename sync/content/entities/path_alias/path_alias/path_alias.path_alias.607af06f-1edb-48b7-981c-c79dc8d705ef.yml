@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 607af06f-1edb-48b7-981c-c79dc8d705ef
+langcode:
+  -
+    value: hu
+path:
+  -
+    value: /node/2
+alias:
+  -
+    value: /rolunk/bemutatkozas
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

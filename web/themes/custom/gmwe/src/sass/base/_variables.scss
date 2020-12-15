@@ -17,7 +17,9 @@ $font-family-sans-serif: "Roboto", $font-family-sans-serif;
 $h1-font-size: $font-size-base * 2.25;
 
 // Navbar
-$navbar-dark-color: rgba($white, .7);
+$navbar-dark-color: rgba($white, .8);
+$navbar-nav-link-padding-x: 1rem;
+$navbar-nav-link-padding-y: 1rem;
 
 // Dropdowns
 //
@@ -39,3 +41,9 @@ $breadcrumb-divider: quote("/");
 $breadcrumb-padding-x: 0;
 $breadcrumb-padding-y: .5rem;
 $breadcrumb-margin-bottom: 0;
+
+
+// Jumbotron
+
+$jumbotron-color: $white;
+$jumbotron-padding: 6rem;

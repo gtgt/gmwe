@@ -1,0 +1,67 @@
+uuid:
+  -
+    value: f03141e6-15e5-4396-a165-644c01d354b7
+langcode:
+  -
+    value: hu
+bundle:
+  -
+    value: menu_link_content
+revision_created:
+  -
+    value: '2020-11-26T15:24:28+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+enabled:
+  -
+    value: true
+title:
+  -
+    value: 'Waldorf pedagógia'
+description: {  }
+menu_name:
+  -
+    value: main
+link:
+  -
+    uri: 'entity:node/3'
+    title: null
+    options: {  }
+external:
+  -
+    value: false
+rediscover:
+  -
+    value: false
+weight:
+  -
+    value: 1
+expanded:
+  -
+    value: false
+parent:
+  -
+    value: 'menu_link_content:9c532922-120d-4299-9701-36d6bb2392f4'
+  -
+    target_type: menu_link_content
+    target_uuid: 9c532922-120d-4299-9701-36d6bb2392f4
+changed:
+  -
+    value: '2020-12-03T09:10:44+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+_content_sync:
+  entity_type: menu_link_content
+  menu_entity_link:
+    node: 9aba627d-a331-4da0-a887-4893bdd86fc5
+  entity_dependencies:
+    node:
+      - node.page.9aba627d-a331-4da0-a887-4893bdd86fc5
+    menu_link_content:
+      - menu_link_content.menu_link_content.9c532922-120d-4299-9701-36d6bb2392f4

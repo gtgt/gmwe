@@ -31,6 +31,8 @@ mix.browserSync({
   proxy: proxy,
   files: ['assets/js/**/*.js', 'assets/css/**/*.css', 'templates/**/*.twig', 'src/components/**/*.twig'],
   stream: true,
+  // true, local, external, ui, ui-external, tunnel or false
+  open: false
 });
 
 /*

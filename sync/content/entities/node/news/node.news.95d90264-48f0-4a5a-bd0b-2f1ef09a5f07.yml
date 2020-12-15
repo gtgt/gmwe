@@ -1,0 +1,68 @@
+uuid:
+  -
+    value: 95d90264-48f0-4a5a-bd0b-2f1ef09a5f07
+langcode:
+  -
+    value: hu
+type:
+  -
+    target_id: news
+    target_type: node_type
+    target_uuid: b827e96b-65e6-4a58-941a-a29432ec0d66
+revision_timestamp:
+  -
+    value: '2020-11-26T15:28:48+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+revision_log: {  }
+status:
+  -
+    value: true
+uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+title:
+  -
+    value: 'Kedves Érdeklődők!'
+created:
+  -
+    value: '2019-11-26T15:27:35+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2020-11-26T15:28:48+00:00'
+    format: 'Y-m-d\TH:i:sP'
+promote:
+  -
+    value: true
+sticky:
+  -
+    value: false
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+entitygroupfield: {  }
+path:
+  -
+    alias: null
+    pid: null
+    langcode: hu
+body:
+  -
+    value: "<div>A 2020/21-es tanévre jelentkezni kívánó családok idei felvételi közleményünket&nbsp;<a href=\"http://gmwe.hu/store/dokumentumok/2019-2020/53b67f9ff4d38bc4c13832e203e91ac7/felveteli_kozlemeny-2020-0001p.pdf\">itt</a>&nbsp;olvashatják. Intézményünkbe jelentkezni&nbsp; a letölthető&nbsp;<a href=\"http://gmwe.hu/store/dokumentumok/2019-2020/5ce919661dae67aa9282e72c422eaa34/jelentkezesi_lap-2020-0001p.pdf\">jelentkezési lap</a>&nbsp;leadásával&nbsp;lehet, amelyeket kitöltve a&nbsp;<a href=\"mailto:drgmwo@gmail.com\">drgmwo@gmail.com</a> e-mail címre várjuk.</div>\r\n"
+    format: html
+    processed: "<div>A 2020/21-es tanévre jelentkezni kívánó családok idei felvételi közleményünket\_<a href=\"http://gmwe.hu/store/dokumentumok/2019-2020/53b67f9ff4d38bc4c13832e203e91ac7/felveteli_kozlemeny-2020-0001p.pdf\">itt</a>\_olvashatják. Intézményünkbe jelentkezni\_ a letölthető\_<a href=\"http://gmwe.hu/store/dokumentumok/2019-2020/5ce919661dae67aa9282e72c422eaa34/jelentkezesi_lap-2020-0001p.pdf\">jelentkezési lap</a>\_leadásával\_lehet, amelyeket kitöltve a\_<a href=\"mailto:drgmwo@gmail.com\">drgmwo@gmail.com</a> e-mail címre várjuk.</div>"
+    summary: ''
+    summary_processed: ''
+_content_sync:
+  entity_type: node
+  entity_dependencies:
+    user:
+      - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563

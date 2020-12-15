@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: bb0c5308-a93b-4976-a5ad-4c562290b563
+langcode:
+  -
+    value: en
+name:
+  -
+    value: admin
+created:
+  -
+    value: '2020-11-22T22:59:59+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2020-12-03T11:17:52+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+entitygroupfield:
+  -
+    target_type: group_content
+    target_uuid: 593e2da2-1c3d-42e5-8d23-df80de64bafe
+_content_sync:
+  entity_type: user
+  entity_dependencies:
+    group_content:
+      - group_content.daycare-group_membership.593e2da2-1c3d-42e5-8d23-df80de64bafe
+pass:
+  -
+    value: $S$EMkPDoRud.dFeJ9U25sVkhSVzK9S1T4DzW4WAg.JZOYUlabl0ulV
+    pre_hashed: true
+mail:
+  value: gt@gtdev.eu
+status:
+  value: '1'
+roles:
+  - authenticated

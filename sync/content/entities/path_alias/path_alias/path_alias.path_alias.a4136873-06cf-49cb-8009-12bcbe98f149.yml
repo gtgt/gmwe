@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: a4136873-06cf-49cb-8009-12bcbe98f149
+langcode:
+  -
+    value: hu
+path:
+  -
+    value: /group/1
+alias:
+  -
+    value: /group/parents
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

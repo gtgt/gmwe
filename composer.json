@@ -12,6 +12,19 @@
     "prefer-stable": true,
     "repositories": [
         {
+            "type": "package",
+            "package": {
+                "name": "drupal/content_sync",
+                "version": "2.1",
+                "type": "drupal-module",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/issue/content_sync-3114499.git",
+                    "reference": "heads/8.x-2.x"
+                }
+            }
+        },
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
@@ -53,6 +66,7 @@
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^2.4",
         "drupal/ckeditor_markdown": "^1.2",
+        "drupal/content_sync": "^2.1",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
@@ -90,7 +104,8 @@
         "patches": {
             "drupal/devel": {
                 "Fix webprofiler twig html dumper": "patch/devel/339-twig-html-dumper.patch",
-                "Fix webprofiler event dispatcher": "patch/devel/344-event-dispatcher.patch"
+                "Fix webprofiler event dispatcher": "patch/devel/344-event-dispatcher.patch",
+                "Support old and new call of active theme's styleSheetsRemove() method.": "patch/devel/xxx-stylesheets-remove-method.patch"
             }
         },
         "installer-types": [
