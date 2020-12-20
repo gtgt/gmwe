@@ -9,7 +9,7 @@ path:
     value: /group/1
 alias:
   -
-    value: /group/parents
+    value: /csoport/szulok
 status:
   -
     value: true

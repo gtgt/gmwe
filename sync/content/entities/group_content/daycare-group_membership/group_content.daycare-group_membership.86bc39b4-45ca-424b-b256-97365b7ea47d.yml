@@ -1,0 +1,49 @@
+uuid:
+  -
+    value: 86bc39b4-45ca-424b-b256-97365b7ea47d
+langcode:
+  -
+    value: hu
+type:
+  -
+    target_id: daycare-group_membership
+    target_type: group_content_type
+    target_uuid: 99054ec9-80c1-4547-b4a7-22a0b820946b
+uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+gid:
+  -
+    target_type: group
+    target_uuid: fec9b857-d6aa-43b5-b3ea-273fd0869206
+entity_id:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+label:
+  -
+    value: admin
+created:
+  -
+    value: '2020-12-17T12:37:41+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2020-12-17T12:37:41+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+group_roles:
+  -
+    target_id: daycare-admin
+    target_type: group_role
+    target_uuid: 920e0e04-f079-4c3e-b835-7abcaa49dca5
+_content_sync:
+  entity_type: group_content
+  entity_dependencies:
+    user:
+      - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
+    group:
+      - group.daycare.fec9b857-d6aa-43b5-b3ea-273fd0869206

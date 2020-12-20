@@ -1,0 +1,83 @@
+// Nav
+// -----------------------------------------------------------------------------
+
+nav.navbar {
+  transition: all 0.5s;
+  background-color: $primary;
+  &.nav-transparent {
+    background-color: transparent;
+  }
+  .navbar-nav {
+    > .nav-item {
+      padding: 0 $navbar-nav-link-padding-x * 0.25;
+      > .nav-link {
+        position: relative;
+        padding: $navbar-nav-link-padding-y $navbar-nav-link-padding-x * 0.75;
+        border-style: solid;
+        border-color: transparent;
+        border-width: $dropdown-border-width $dropdown-border-width 0 $dropdown-border-width;
+
+        &:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: $navbar-dark-active-color;
+          visibility: hidden;
+          transform: scaleX(0);
+          transition: all 0.3s ease-in-out 0s;
+        }
+      }
+      &.active, &:hover {
+        > .nav-link:before {
+          visibility: visible;
+          transform: scaleX(1);
+        }
+      }
+    }
+    .dropdown-menu {
+      margin: 0;
+      border-top-width: 0;
+      left: $navbar-nav-link-padding-x * 0.25;
+    }
+  }
+  &.bg-transparent {
+    .navbar-nav > .nav-item {
+      > .nav-link:before {
+        background-color: $dropdown-link-hover-bg;
+      }
+    }
+  }
+}
+
+.navbar-expand {
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    $next: breakpoint-next($breakpoint, $grid-breakpoints);
+    $infix: breakpoint-infix($next, $grid-breakpoints);
+
+    &#{$infix} {
+      @include media-breakpoint-down($breakpoint) {
+        padding: 0;
+        > .container,
+        > .container-fluid {
+          max-width: none;
+          .navbar-collapse {
+            &.collapsing, &.collapse.show {
+              background-color: $primary!important;
+            }
+            .dropdown-menu {
+              background: none;
+              box-shadow: none;
+              border: none;
+              .dropdown-item {
+                color: $navbar-dark-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{#
+/**
+ * @file
+ * Template for GMWE 2 column zigzag
+ *
+ * Variables:
+ * - $css_id: An optional CSS id to use for the layout.
+ * - $content: An array of content, each item in the array is keyed to one
+ * panel of the layout. This layout supports the following sections:
+ */
+#}
+{%
+  set container_classes = [
+  'panel-display',
+  'showcase',
+  'clearfix'
+]
+%}
+{% if classes %}
+  {% set container_classes = container_classes|merge(classes) %}
+{% endif %}
+{% if class %}
+  {% set container_classes = container_classes|merge(class) %}
+{% endif %}
+
+<!-- Image Showcases -->
+<section {{ attributes.addClass(container_classes) }}{% if css_id %}{{ css_id }}{% endif %}>
+  <div class="container-fluid p-0">
+    <div class="row no-gutters">
+      <div class="col-lg-6 {% if counter is odd %}order-lg-2 {% endif %}text-white showcase-img">{{ content.picture }}</div>
+      <div class="col-lg-6 {% if counter is odd %}order-lg-1 {% endif %}my-auto showcase-text">
+        <h2>{{ content.title }}</h2>
+        <div class="lead mb-0">{{ content.body }}</div>
+      </div>
+    </div>
+  </div>
+</section><!-- /.zigzag -->

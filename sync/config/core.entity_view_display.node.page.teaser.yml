@@ -5,8 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
-    - field.field.node.page.field_recommendation
+    - field.field.node.page.field_showcase_body
     - field.field.node.page.field_showcase_picture
+    - field.field.node.page.field_showcase_title
     - node.type.page
   module:
     - field_layout
@@ -38,6 +39,7 @@ content:
     third_party_settings: {  }
 hidden:
   entitygroupfield: true
-  field_recommendation: true
+  field_showcase_body: true
   field_showcase_picture: true
+  field_showcase_title: true
   langcode: true

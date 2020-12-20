@@ -1,0 +1,12 @@
+gmwe_showcase:
+  label: 'Showcase'
+  category: 'GMWE Theme'
+  template: templates/layout/showcase
+  default_region: main
+  regions:
+    title:
+      label: Title
+    body:
+      label: Body
+    picture:
+      label: Picture

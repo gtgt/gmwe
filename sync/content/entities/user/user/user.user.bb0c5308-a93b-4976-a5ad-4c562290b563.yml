@@ -22,11 +22,16 @@ entitygroupfield:
   -
     target_type: group_content
     target_uuid: 593e2da2-1c3d-42e5-8d23-df80de64bafe
+  -
+    target_type: group_content
+    target_uuid: 86bc39b4-45ca-424b-b256-97365b7ea47d
+field_picture: {  }
 _content_sync:
   entity_type: user
   entity_dependencies:
     group_content:
       - group_content.daycare-group_membership.593e2da2-1c3d-42e5-8d23-df80de64bafe
+      - group_content.daycare-group_membership.86bc39b4-45ca-424b-b256-97365b7ea47d
 pass:
   -
     value: $S$EMkPDoRud.dFeJ9U25sVkhSVzK9S1T4DzW4WAg.JZOYUlabl0ulV

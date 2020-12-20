@@ -1,0 +1,22 @@
+uuid: 49532999-e76f-4568-8dfb-112775652a43
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - gmwe_theme
+_core:
+  default_config_hash: DJ7Om1C2xWr2GI8CjZaZtyWpP-0S3hRR3oROZl1oesc
+id: gmwe_theme_secondary_local_tasks
+theme: gmwe_theme
+region: header
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Másodlagos fülek'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

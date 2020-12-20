@@ -1,0 +1,37 @@
+uuid:
+  -
+    value: fec9b857-d6aa-43b5-b3ea-273fd0869206
+langcode:
+  -
+    value: hu
+type:
+  -
+    target_id: daycare
+    target_type: group_type
+    target_uuid: 0b4c2faa-d691-463d-baa3-d44e891fd4e8
+uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+label:
+  -
+    value: Vezetőség
+created:
+  -
+    value: '2020-12-17T12:37:37+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2020-12-17T12:44:15+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+_content_sync:
+  entity_type: group
+  entity_dependencies:
+    user:
+      - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
+path:
+  -
+    alias: /csoport/vezetoseg

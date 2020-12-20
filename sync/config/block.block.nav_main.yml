@@ -1,4 +1,4 @@
-uuid: 74c8acfa-9553-4776-8502-4b88a584c6d9
+uuid: 2a374fea-f44a-4757-9e97-55787d70ee2a
 langcode: hu
 status: true
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
   module:
     - system
   theme:
-    - gmwe
+    - gmwe_theme
 id: nav_main
-theme: gmwe
+theme: gmwe_theme
 region: navbar_left
 weight: 0
 provider: null

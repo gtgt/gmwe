@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 0dfc4b06-0e63-44e1-ba11-3d056444085b
+langcode:
+  -
+    value: hu
+path:
+  -
+    value: /group/2
+alias:
+  -
+    value: /csoport/vezetoseg
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

@@ -1,0 +1,60 @@
+uuid:
+  -
+    value: 220a8a98-335c-45f0-a804-bbf4849e7b8d
+langcode:
+  -
+    value: hu
+bundle:
+  -
+    value: menu_link_content
+revision_created:
+  -
+    value: '2020-12-20T01:32:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+revision_user: {  }
+revision_log_message: {  }
+enabled:
+  -
+    value: true
+title:
+  -
+    value: Impresszum
+description: {  }
+menu_name:
+  -
+    value: footer
+link:
+  -
+    uri: 'entity:node/6'
+    title: null
+    options: {  }
+external:
+  -
+    value: false
+rediscover:
+  -
+    value: false
+weight:
+  -
+    value: 0
+expanded:
+  -
+    value: false
+parent: {  }
+changed:
+  -
+    value: '2020-12-20T01:32:05+00:00'
+    format: 'Y-m-d\TH:i:sP'
+default_langcode:
+  -
+    value: true
+revision_translation_affected:
+  -
+    value: true
+_content_sync:
+  entity_type: menu_link_content
+  menu_entity_link:
+    node: c92798f4-5af7-47de-a421-3931c462ec90
+  entity_dependencies:
+    node:
+      - node.page.c92798f4-5af7-47de-a421-3931c462ec90

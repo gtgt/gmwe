@@ -1,0 +1,20 @@
+uuid: 74b4aa4c-b262-4aba-9d48-8bfe7386682c
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - gmwe_theme
+_core:
+  default_config_hash: Z3nlZUh2mSJP3apMrJWt-duS-aLyP79rcfu_0wpPmDs
+id: gmwe_theme_page_title
+theme: gmwe_theme
+region: header
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Oldal címe'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -148,10 +148,10 @@ display:
           plugin_id: language
           entity_type: node
           entity_field: langcode
-        field_recommendation_value:
-          id: field_recommendation_value
-          table: node__field_recommendation
-          field: field_recommendation_value
+        field_showcase_title_value:
+          id: field_showcase_title_value
+          table: node__field_showcase_title
+          field: field_showcase_title_value
           relationship: none
           group_type: group
           admin_label: ''
@@ -254,7 +254,7 @@ display:
       style:
         type: default
         options:
-          row_class: ''
+          row_class: 'row bg-gray p-5'
           default_row_class: false
           uses_fields: false
       title: ''
@@ -365,10 +365,10 @@ display:
         - 'config:core.entity_view_display.node.page.default'
         - 'config:core.entity_view_display.node.page.recommendation'
         - 'config:core.entity_view_display.node.page.teaser'
-  recommendation:
+  showcase:
     display_plugin: attachment
-    id: recommendation
-    display_title: Recommendation
+    id: showcase
+    display_title: Showcase
     position: 2
     display_options:
       display_extenders: {  }
@@ -526,23 +526,16 @@ display:
       displays:
         page: page
       style:
-        type: grid
+        type: default
         options:
-          grouping: {  }
-          columns: 2
-          automatic_width: false
-          alignment: horizontal
-          col_class_default: false
-          col_class_custom: 'col-md d-flex flex-column'
-          row_class_default: false
-          row_class_custom: row
+          row_class: row
+          default_row_class: false
+          uses_fields: false
       row:
-        type: fields
+        type: 'entity:node'
         options:
-          default_field_elements: false
-          inline: {  }
-          separator: ''
-          hide_empty: true
+          relationship: none
+          view_mode: recommendation
       fields:
         rendered_entity:
           id: rendered_entity
@@ -679,6 +672,7 @@ display:
           plugin_id: date
           entity_type: node
           entity_field: created
+      attachment_position: after
     cache_metadata:
       max-age: -1
       contexts:

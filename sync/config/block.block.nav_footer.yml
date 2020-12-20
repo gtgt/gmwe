@@ -1,4 +1,4 @@
-uuid: 4005a35b-42fa-45d1-92b6-878a54077c2e
+uuid: 5c3086bb-9ce3-4cbb-b4fa-851fbe056006
 langcode: hu
 status: true
 dependencies:
@@ -7,19 +7,19 @@ dependencies:
   module:
     - system
   theme:
-    - gmwe
+    - gmwe_theme
 id: nav_footer
-theme: gmwe
+theme: gmwe_theme
 region: footer
-weight: -5
+weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: Lábléc
+  label: 'Lábléc navigáció'
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 0
   expand_all_items: false
 visibility: {  }

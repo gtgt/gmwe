@@ -34,7 +34,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2020-12-03T08:53:32+00:00'
+    value: '2020-12-16T13:37:05+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
@@ -56,17 +56,29 @@ body:
     processed: "<div class=\"txtNew\" id=\"WRchTxt-5b8a7cbd-8a50-4301-8516-3d5adf763bc2\">\n<p>A kisgyermekek nagyon nyitottak a világra, szivacsként szívnak magukba mindent. Ugyanakkor még nem képesek elmélyedni a részletekben és strukturáltan gondolkodni. Ebben az életkorban érdemes őket a folyamatokkal megismertetni, amiből az egész építkezik (pl. búzaültetés – aratás – cséplés – őrlés – az őrölt lisztből kenyér sütése). Azt is fontos figyelembe venni, hogy az ekkora kisgyerek még nem képes lezárni magát, valóban magába szív minden információt, így a mi, az őket körülvevő felnőttek felelőssége, hogy mivel ismertetjük meg, hogy ne terheljük őket túlzottan idő előtt kapott információkkal.​</p>\n\n<p>A kisgyermek fantáziáját ilyenkor lehet leginkább nevelgetni, növelgetni, ezért fontos, hogy ne árasszuk el őket kész képekkel (a televízió, de akár túl erős és kötött képeskönyv illusztrációk által), de kész, egyféleképpen használható játékokkal sem. Ehelyett tegyük lehetővé, hogy minél többféle eszközhöz, alapanyaghoz hozzáférhessenek – anyagokhoz, kantárokhoz, különböző méretű és formájú fadarabokhoz, gyapjúhoz, fonalakhoz, stb. – amelyekből aztán építkezhetnek (akár szó szerint, akár képletesen). Óvodánkban nagy hangsúlyt szeretnék fektetni az érzékszervi nevelésre is, melynek fontos része a tapintásérzék, ezért kizárólag természetes alapanyagokat használunk, fa játékokat, felszeletelt faágakat, vászon anyagokat, selymeket, gyapjúfonalból kötött kantárokat és állatokat, filcállatokat, stb. A kisgyermek igen sok mindent a tapintásán keresztül vesz fel a világból, ezért egyáltalán nem elhanyagolható, hogy milyen anyagokkal érintkezik. A tevékenységekhez szintén jó minőségű méhviasz krétákat, méhviasz gyurmát, gyapjút, aquarell festéket használunk.</p>\n\n<p>A kisgyermek számára különösen fontos a rendszeresség, a kiszámítható ismétlődés, a ritmusok. Ezek adnak számára tájékozódási pontokat a világban, erősítik biztonságérzetét. A Waldorf-pedagógia követni próbálja a ki- és belégzések ritmusát, amely a természetben is megjelenik például az évszakok váltakozásában.</p>\n\n<p>A Waldorf-pedagógia szeretné elkerülni az idő előtt való fejlesztést. A kisgyermek legfejlesztőbb tevékenysége a szabad játék, melynek során feldolgozza élményeit, az őt ért külső hatásokat belsővé teszi, gyakorol és gyógyul. Ezért a Waldorf-óvodában különösen nagy hangsúly helyeződik a szabad játékra. Az óvónő a kisgyermek kísérője, segítője, bizalommal tekint a gyermekre, hagyva hogy minden gyermek saját egyéni tempója szerint bontakoztassa ki képességeit.</p>\n</div>"
     summary: ''
     summary_processed: ''
-field_recommendation:
+field_showcase_body:
   -
-    value: "<h2>Waldorf-kisgyermekkori nevelés?</h2>\r\n\r\n<ul>\r\n\t<li>A szeretet és a melegség</li>\r\n\t<li>Olyan környezet, amely táplálja az érzékszervi nevelést</li>\r\n\t<li>Kreatív és művészi élmények</li>\r\n\t<li>Értelmes felnőtt tevékenység, melyet utánozni lehet</li>\r\n\t<li>Szabad, fantáziadús játék</li>\r\n\t<li>A gyermekkori erők védelmezése</li>\r\n\t<li>hála, tisztelet és csoda</li>\r\n\t<li>Öröm, humor, és boldogság</li>\r\n\t<li>A felnőtt nevelők állandó fejlődési úton legyenek</li>\r\n</ul>\r\n"
+    value: "<ul>\r\n\t<li>A szeretet és a melegség</li>\r\n\t<li>Olyan környezet, amely táplálja az érzékszervi nevelést</li>\r\n\t<li>Kreatív és művészi élmények</li>\r\n\t<li>Értelmes felnőtt tevékenység, melyet utánozni lehet</li>\r\n\t<li>Szabad, fantáziadús játék</li>\r\n\t<li>A gyermekkori erők védelmezése</li>\r\n\t<li>hála, tisztelet és csoda</li>\r\n\t<li>Öröm, humor, és boldogság</li>\r\n\t<li>A felnőtt nevelők állandó fejlődési úton legyenek</li>\r\n</ul>\r\n"
     format: html
-    processed: "<h2>Waldorf-kisgyermekkori nevelés?</h2>\n\n<ul>\n\t<li>A szeretet és a melegség</li>\n\t<li>Olyan környezet, amely táplálja az érzékszervi nevelést</li>\n\t<li>Kreatív és művészi élmények</li>\n\t<li>Értelmes felnőtt tevékenység, melyet utánozni lehet</li>\n\t<li>Szabad, fantáziadús játék</li>\n\t<li>A gyermekkori erők védelmezése</li>\n\t<li>hála, tisztelet és csoda</li>\n\t<li>Öröm, humor, és boldogság</li>\n\t<li>A felnőtt nevelők állandó fejlődési úton legyenek</li>\n</ul>"
-field_showcase_picture: {  }
+    processed: "<ul>\n\t<li>A szeretet és a melegség</li>\n\t<li>Olyan környezet, amely táplálja az érzékszervi nevelést</li>\n\t<li>Kreatív és művészi élmények</li>\n\t<li>Értelmes felnőtt tevékenység, melyet utánozni lehet</li>\n\t<li>Szabad, fantáziadús játék</li>\n\t<li>A gyermekkori erők védelmezése</li>\n\t<li>hála, tisztelet és csoda</li>\n\t<li>Öröm, humor, és boldogság</li>\n\t<li>A felnőtt nevelők állandó fejlődési úton legyenek</li>\n</ul>"
+field_showcase_picture:
+  -
+    alt: ''
+    title: ''
+    width: 900
+    height: 640
+    target_type: file
+    target_uuid: 790ae87f-075e-4549-b88e-e416442d5571
+field_showcase_title:
+  -
+    value: 'Waldorf-kisgyermekkori nevelés?'
 _content_sync:
   entity_type: node
   entity_dependencies:
     user:
       - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
+    file:
+      - file.file.790ae87f-075e-4549-b88e-e416442d5571
 path:
   -
     alias: /rolunk/ovodapedagogia

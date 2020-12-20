@@ -1,0 +1,65 @@
+{#
+/**
+ * @file
+ * Template for the main page.
+ */
+#}
+<div class="page">
+  {% embed '@radix/navbar/navbar.twig' with {
+    placement: is_front ? 'fixed-top' : 'sticky-top',
+    container: 'fixed',
+    color: 'dark',
+    utility_classes: is_front ? ['nav-transparent'] : [],
+  } %}
+
+    {% block branding %}
+      {% if page.navbar_branding %}
+        {{ page.navbar_branding }}
+      {% endif %}
+    {% endblock %}
+
+    {% block left %}
+      {% if page.navbar_left %}
+        <div class="mr-auto">
+          {{ page.navbar_left }}
+        </div>
+      {% endif %}
+    {% endblock %}
+
+    {% block right %}
+      {% if page.navbar_right %}
+        {{ page.navbar_right }}
+      {% endif %}
+    {% endblock %}
+  {% endembed %}
+
+  {% block page_before %}{% endblock %}
+  <main{% if not is_front %} class="pb-5"{% endif %}>
+    {% if page.header %}
+      <header class="page__header mb-3">
+        <div class="{% block page_header_container_class %}container{% endblock %}">
+          {{ page.header }}
+        </div>
+      </header>
+    {% endif %}
+    {% if page.content %}
+      <div class="page__content">
+        <div class="{% block page_content_container_class %}container{% endblock %}">
+          {{ page.content }}
+        </div>
+      </div>
+    {% endif %}
+  </main>
+  {% block page_after %}{% endblock %}
+
+  <!-- Footer -->
+  {% if page.footer %}
+    <footer class="page__footer bg-dark">
+      <div class="container">
+        <div class="content d-flex justify-content-md-between align-items-md-center">
+          {{ page.footer }}
+        </div>
+      </div>
+    </footer>
+  {% endif %}
+</div>

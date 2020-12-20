@@ -1,0 +1,22 @@
+uuid: 519dac03-0494-4ec6-b023-1ac673adfc32
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - gmwe_theme
+_core:
+  default_config_hash: CyX_aDKAka2_eihevNLscCHDYrzDgIqwWzFVEFRKIww
+id: gmwe_theme_primary_local_tasks
+theme: gmwe_theme
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Elsődleges fülek'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

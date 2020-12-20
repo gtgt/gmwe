@@ -22,7 +22,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2020-11-24T21:07:59+00:00'
+    value: '2020-12-17T12:43:27+00:00'
     format: 'Y-m-d\TH:i:sP'
 default_langcode:
   -
@@ -34,4 +34,4 @@ _content_sync:
       - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
 path:
   -
-    alias: /group/parents
+    alias: /csoport/szulok

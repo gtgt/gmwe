@@ -1,0 +1,22 @@
+uuid: e2592bd5-ba0b-4907-94a0-f4b0760e4212
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gmwe_theme
+_core:
+  default_config_hash: 8by5KRsb7ZpmjHj0ms1d7xAG_xH54AWsOX6spDLJ59U
+id: gmwe_theme_breadcrumbs
+theme: gmwe_theme
+region: header
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Morzsák
+  provider: system
+  label_display: '0'
+visibility: {  }

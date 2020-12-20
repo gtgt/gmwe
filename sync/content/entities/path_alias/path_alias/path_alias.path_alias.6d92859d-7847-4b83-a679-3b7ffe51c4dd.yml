@@ -1,0 +1,17 @@
+uuid:
+  -
+    value: 6d92859d-7847-4b83-a679-3b7ffe51c4dd
+langcode:
+  -
+    value: hu
+path:
+  -
+    value: /node/6
+alias:
+  -
+    value: /impresszum
+status:
+  -
+    value: true
+_content_sync:
+  entity_type: path_alias

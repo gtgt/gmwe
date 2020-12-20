@@ -1,21 +1,24 @@
-uuid: 25a3a406-e280-49f8-a6f5-2bcc2d82d9a1
+uuid: 7087f88b-5e3c-4db4-99a3-9aefdf8f3047
 langcode: hu
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.recommendation
     - field.field.node.page.body
-    - field.field.node.page.field_recommendation
+    - field.field.node.page.field_showcase_body
     - field.field.node.page.field_showcase_picture
+    - field.field.node.page.field_showcase_title
     - node.type.page
   module:
     - field_layout
-    - layout_discovery
+    - image
     - text
     - user
+  theme:
+    - gmwe_theme
 third_party_settings:
   field_layout:
-    id: layout_onecol
+    id: gmwe_showcase
     settings:
       label: ''
 id: node.page.recommendation
@@ -23,21 +26,33 @@ targetEntityType: node
 bundle: page
 mode: recommendation
 content:
-  field_recommendation:
+  field_showcase_body:
     type: text_default
-    weight: 0
-    region: content
+    weight: 1
+    region: body
     label: hidden
     settings: {  }
     third_party_settings: {  }
-  links:
-    weight: 1
-    region: content
-    settings: {  }
+  field_showcase_picture:
+    type: image
+    weight: 2
+    region: picture
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_showcase_title:
+    type: string
+    weight: 0
+    region: title
+    label: hidden
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
 hidden:
   body: true
   entitygroupfield: true
-  field_showcase_picture: true
   langcode: true
   layout_builder__layout: true
+  links: true

@@ -1,0 +1,29 @@
+diff --git a/src/Commands/ContentSyncCommands.php b/src/Commands/ContentSyncCommands.php
+index d16b6ef..4af42a7 100644
+--- a/src/Commands/ContentSyncCommands.php
++++ b/src/Commands/ContentSyncCommands.php
+@@ -6,16 +6,11 @@ use Drupal\content_sync\ContentSyncManagerInterface;
+ use Drupal\content_sync\Exporter\ContentExporterInterface;
+ use Drupal\content_sync\Form\ContentExportTrait;
+ use Drupal\content_sync\Form\ContentImportTrait;
+-use Drupal\content_sync\Form\ContentSync;
+-use Drupal\config\StorageReplaceDataWrapper;
+ use Drupal\Core\Config\ConfigManagerInterface;
+-use Drupal\Core\Config\FileStorage;
+ use Drupal\content_sync\Content\ContentStorageComparer;
+ use Drupal\Core\Config\StorageInterface;
+ use Drupal\Core\Config\TypedConfigManagerInterface;
+ use Drupal\Core\DependencyInjection\DependencySerializationTrait;
+-use Drupal\Core\Entity\ContentEntityInterface;
+-use Drupal\Core\Entity\EntityStorageException;
+ use Drupal\Core\Entity\EntityTypeManagerInterface;
+ use Drupal\Core\Extension\ModuleHandlerInterface;
+ use Drupal\Core\Extension\ModuleInstallerInterface;
+@@ -27,6 +22,7 @@ use Drush\Commands\DrushCommands;
+ use Drush\Exceptions\UserAbortException;
+ use Symfony\Component\Console\Helper\Table;
+ use Symfony\Component\Console\Output\OutputInterface;
++use Symfony\Component\DependencyInjection\ContainerInterface;
+ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+ 
+ /**

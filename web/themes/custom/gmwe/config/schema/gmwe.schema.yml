@@ -1,5 +1,0 @@
-# Schema for the configuration files of the gmwe theme.
-
-gmwe.settings:
-  type: theme_settings
-  label: 'gmwe settings'

@@ -34,7 +34,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2020-11-30T10:00:00+00:00'
+    value: '2020-12-16T13:43:02+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
@@ -56,17 +56,29 @@ body:
     processed: "<div class=\"txtNew\" id=\"WRchTxt-e775afe5-d4d3-7343-3fe6-4db435aa4516\">\n<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\n\n<p>Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>\n</div>"
     summary: ''
     summary_processed: ''
-field_recommendation:
+field_showcase_body:
   -
-    value: "<h2>Csoportjaink</h2>\r\n\r\n<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\r\n\r\n<p>A Napkeleti Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>\r\n"
+    value: "<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\r\n\r\n<p>A Napkeleti Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>\r\n"
     format: html
-    processed: "<h2>Csoportjaink</h2>\n\n<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\n\n<p>A Napkeleti Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>"
-field_showcase_picture: {  }
+    processed: "<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\n\n<p>A Napkeleti Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>"
+field_showcase_picture:
+  -
+    alt: ''
+    title: ''
+    width: 900
+    height: 663
+    target_type: file
+    target_uuid: cc744b3b-8f7f-4ae1-bb0a-2fbab90669c7
+field_showcase_title:
+  -
+    value: Csoportjaink
 _content_sync:
   entity_type: node
   entity_dependencies:
     user:
       - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
+    file:
+      - file.file.cc744b3b-8f7f-4ae1-bb0a-2fbab90669c7
 path:
   -
     alias: /csoportjaink

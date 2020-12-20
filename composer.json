@@ -163,6 +163,6 @@
         }
     },
     "scripts": {
-        "watch": "yarn --cwd web/themes/custom/gmwe watch"
+        "watch": "yarn --cwd web/themes/custom/gmwe_theme watch"
     }
 }

@@ -1,0 +1,62 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+@import "~bootstrap/scss/variables";
+
+$enable-shadows: true;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: "Roboto", $font-family-sans-serif;
+// stylelint-enable value-keyword-case
+
+
+$h1-font-size: $font-size-base * 2.25;
+$h2-font-size: $font-size-base * 1.75;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1.30;
+$h5-font-size: $font-size-base * 1.15;
+
+$display1-size: 5.5rem;
+$display2-size: 5rem;
+$display3-size: 4rem;
+$display4-size: 3rem;
+
+
+// Navbar
+$navbar-padding-y: 0;
+$navbar-dark-color: rgba($white, .8);
+$navbar-nav-link-padding-x: 1.5rem;
+$navbar-nav-link-padding-y: 1rem;
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+
+$dropdown-min-width: 20rem;
+$dropdown-padding-y: 0;
+$dropdown-item-padding-y: .75rem;
+$dropdown-item-padding-x: 1.5rem;
+$dropdown-border-radius: 0;
+$dropdown-inner-border-radius: 0;
+
+// Breadcrumbs
+
+$breadcrumb-bg: transparent;
+$breadcrumb-active-color: $body-color;
+$breadcrumb-divider-color: lighten($breadcrumb-active-color, .8);
+$breadcrumb-divider: quote("/");
+$breadcrumb-padding-x: 0;
+$breadcrumb-padding-y: .5rem;
+$breadcrumb-margin-bottom: 0;
+
+
+// Jumbotron
+
+$jumbotron-color: $white;
+$jumbotron-padding: 6rem;

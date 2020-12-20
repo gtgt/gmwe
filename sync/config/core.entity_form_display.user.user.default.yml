@@ -3,15 +3,19 @@ langcode: hu
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_picture
     - field.field.user.user.l10n_client_contributor_key
+    - image.style.thumbnail
   module:
+    - entitygroupfield
     - field_layout
+    - image
     - l10n_client_contributor
-    - layout_discovery
+    - radix_layouts
     - user
 third_party_settings:
   field_layout:
-    id: layout_onecol
+    id: radix_phelan
     settings:
       label: ''
 id: user.user.default
@@ -20,33 +24,42 @@ bundle: user
 mode: default
 content:
   account:
-    weight: -10
+    weight: 0
+    region: column1
     settings: {  }
     third_party_settings: {  }
-    region: content
   contact:
-    weight: 5
+    weight: 3
+    region: column2
     settings: {  }
     third_party_settings: {  }
-    region: content
+  entitygroupfield:
+    type: entitygroupfield_select_widget
+    weight: 1
+    region: column2
+    settings:
+      help_text: ''
+      label: Csoportnév
+      multiple: true
+      required: false
+    third_party_settings: {  }
+  field_picture:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: column2
   l10n_client_contributor_key:
     type: l10n_client_contributor_key_widget
-    weight: 7
+    weight: 4
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    region: content
-  language:
-    weight: 0
-    settings: {  }
-    third_party_settings: {  }
-    region: content
-  timezone:
-    weight: 6
-    settings: {  }
-    third_party_settings: {  }
-    region: content
+    region: column2
 hidden:
-  entitygroupfield: true
   langcode: true
+  language: true
+  timezone: true

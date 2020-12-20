@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 790ae87f-075e-4549-b88e-e416442d5571
+langcode:
+  -
+    value: hu
+uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+filename:
+  -
+    value: bg-showcase-3.jpg
+uri:
+  -
+    value: 'public://page/showcase[node:nid]/bg-showcase-3.jpg'
+    url: /sites/default/files/page/showcase%5Bnode%3Anid%5D/bg-showcase-3.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 314857
+status:
+  -
+    value: true
+created:
+  -
+    value: '2020-12-16T13:16:19+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2020-12-16T13:23:20+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
