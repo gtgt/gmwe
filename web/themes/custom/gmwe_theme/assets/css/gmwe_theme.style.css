@@ -10087,6 +10087,7 @@ form .form-wrapper .form-wrapper {
 header#hero {
   width: 100%;
   min-height: 60vh;
+  margin-bottom: -1rem;
   padding-top: 3.5rem;
   position: relative;
   background: #343a40 url("../../assets/img/front/bg-masthead.jpg") no-repeat fixed center center;

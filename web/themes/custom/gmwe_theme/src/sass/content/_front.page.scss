@@ -15,6 +15,7 @@
 header#hero {
   width: 100%;
   min-height: 60vh;
+  margin-bottom: -1rem; // ???
   padding-top: $font-size-base * $line-height-base + $navbar-nav-link-padding-y * 2; // height of navbar...
   position: relative;
   background: $gray-800 url('../../assets/img/front/bg-masthead.jpg') no-repeat fixed center center;
