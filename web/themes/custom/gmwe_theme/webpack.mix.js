@@ -40,7 +40,7 @@ mix.browserSync({
  | SASS
  |--------------------------------------------------------------------------
  */
-mix.sass('src/sass/gmwe_theme.style.scss', 'css');
+mix.sass('src/scss/gmwe_theme.style.scss', 'css');
 
 /*
  |--------------------------------------------------------------------------

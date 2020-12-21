@@ -6,10 +6,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  width: 100%;
-}
-
 // Text
 // -----------------------------------------------------------------------------
 p {
@@ -20,8 +16,8 @@ p {
 // -----------------------------------------------------------------------------
 a {
 
-  @include hover {
-
+  @include hover-focus-active {
+    outline: none!important;
   }
 }
 

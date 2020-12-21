@@ -1,0 +1,5 @@
+services:
+  gmwe.twig.extension:
+    class: Drupal\gmwe\Template\TwigExtension
+    tags:
+      - { name: twig.extension }

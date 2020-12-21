@@ -9898,6 +9898,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   width: 100%;
 }
 
+a:hover, a:focus, a:active {
+  outline: none !important;
+}
+
 nav.navbar {
   transition: all 0.5s;
   background-color: #78c2ad;
@@ -10061,6 +10065,45 @@ nav.navbar.bg-transparent .navbar-nav > .nav-item > .nav-link:before {
 
 .vertical-tabs__panes > .card {
   border: none;
+}
+
+.ui-widget.ui-dialog.ui-dialog-off-canvas {
+  min-height: 100vh;
+  background-color: #fff;
+  border: 0 none;
+  padding: 0;
+  box-shadow: 0 0 48px rgba(0, 0, 0, 0.075);
+  z-index: 1100;
+}
+.ui-widget.ui-dialog.ui-dialog-off-canvas .ui-dialog-titlebar {
+  background-color: #eceeef;
+  border-radius: 0;
+  border-width: 0 0 1px;
+  padding: 1rem 1.5rem;
+}
+.ui-widget.ui-dialog.ui-dialog-off-canvas .ui-dialog-titlebar .ui-dialog-title {
+  margin: 0;
+}
+.ui-widget.ui-dialog.ui-dialog-off-canvas .ui-dialog-titlebar .ui-dialog-titlebar-close {
+  top: 50%;
+  margin-top: -10px;
+  border: none;
+  background: none;
+}
+.ui-widget.ui-dialog.ui-dialog-off-canvas .ui-dialog-titlebar .ui-dialog-titlebar-close:focus {
+  outline: none;
+}
+.ui-widget.ui-dialog.ui-dialog-off-canvas .ui-resizable-w {
+  border: 0 none;
+  background-color: transparent;
+  width: 4px;
+  left: -4px;
+}
+.ui-widget.ui-dialog.ui-dialog-off-canvas .ui-resizable-w:hover {
+  background-color: #ced4da;
+}
+.ui-widget.ui-dialog.ui-dialog-off-canvas .ui-dialog-content {
+  padding: 1rem;
 }
 
 .page__footer {

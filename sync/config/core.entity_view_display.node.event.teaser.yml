@@ -1,6 +1,6 @@
 uuid: c96b761b-c3dc-4c11-97f0-46377944aacd
 langcode: hu
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
@@ -49,4 +49,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  entitygroupfield: true
   langcode: true

@@ -21,3 +21,4 @@ favicon:
 accent_color: '#78C2AD'
 focus_color: transparent
 icon_upload: ''
+show_user_theme_settings: false

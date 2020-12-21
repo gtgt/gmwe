@@ -65,23 +65,24 @@ display:
           start: field_when
           end: field_when
           title: title
-          right_buttons: 'dayGridMonth,timeGridWeek,timeGridDay,listYear'
           left_buttons: 'prev,next today'
+          right_buttons: 'dayGridMonth,timeGridWeek,timeGridDay,listYear'
           default_view: dayGridMonth
-          firstDay: '0'
+          firstDay: '1'
           nav_links: 1
           timeFormat: ''
           allowEventOverlap: 1
           updateAllowed: 1
           updateConfirm: 1
-          defaultLanguage: en
+          defaultLanguage: current_lang
           languageSelector: 0
           dialogWindow: 0
-          createEventLink: 0
           openEntityInNewTab: 1
-          tax_field: ''
-          vocabularies: ''
-          color_bundle: ''
+          createEventLink: 1
+          color_bundle:
+            event: '#3a87ad'
+            news: '#3a87ad'
+            page: '#3a87ad'
           rrule: ''
           duration: ''
           bundle_type: event

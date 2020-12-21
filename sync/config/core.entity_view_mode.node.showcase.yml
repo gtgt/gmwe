@@ -1,10 +1,10 @@
-uuid: 72ec4f50-a6d9-45c3-a759-d873a123633c
+uuid: 898f9e78-0dab-40e8-be8e-78dcd0148c2b
 langcode: hu
 status: true
 dependencies:
   module:
     - node
-id: node.recommendation
+id: node.showcase
 label: 'Főoldali ajánló'
 targetEntityType: node
 cache: true

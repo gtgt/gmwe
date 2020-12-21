@@ -1,0 +1,33 @@
+uuid: 1a28685f-104a-4561-b1e0-449d8a383407
+langcode: hu
+status: true
+dependencies:
+  config:
+    - group.content_type.daycare-group_node-event
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: group_content.daycare-group_node-event.default
+targetEntityType: group_content
+bundle: daycare-group_node-event
+mode: default
+content:
+  entity_id:
+    type: entity_reference_autocomplete
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  path: true
+  uid: true

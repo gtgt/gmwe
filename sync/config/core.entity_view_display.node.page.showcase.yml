@@ -1,9 +1,9 @@
-uuid: 7087f88b-5e3c-4db4-99a3-9aefdf8f3047
+uuid: fd3469ae-b2d5-4da0-8bd8-fadcb4a2c044
 langcode: hu
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.recommendation
+    - core.entity_view_mode.node.showcase
     - field.field.node.page.body
     - field.field.node.page.field_showcase_body
     - field.field.node.page.field_showcase_picture
@@ -21,10 +21,10 @@ third_party_settings:
     id: gmwe_showcase
     settings:
       label: ''
-id: node.page.recommendation
+id: node.page.showcase
 targetEntityType: node
 bundle: page
-mode: recommendation
+mode: showcase
 content:
   field_showcase_body:
     type: text_default
@@ -34,13 +34,12 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_showcase_picture:
-    type: image
-    weight: 2
+    type: image_url
+    weight: 3
     region: picture
     label: hidden
     settings:
       image_style: ''
-      image_link: ''
     third_party_settings: {  }
   field_showcase_title:
     type: string
@@ -48,11 +47,15 @@ content:
     region: title
     label: hidden
     settings:
-      link_to_entity: false
+      link_to_entity: true
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: body
+    settings: {  }
     third_party_settings: {  }
 hidden:
   body: true
   entitygroupfield: true
   langcode: true
   layout_builder__layout: true
-  links: true

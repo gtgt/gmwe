@@ -18120,9 +18120,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/sass/gmwe_theme.style.scss":
+/***/ "./src/scss/gmwe_theme.style.scss":
 /*!****************************************!*\
-  !*** ./src/sass/gmwe_theme.style.scss ***!
+  !*** ./src/scss/gmwe_theme.style.scss ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -18133,13 +18133,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 0:
 /*!****************************************************************************!*\
-  !*** multi ./src/js/gmwe_theme.script.js ./src/sass/gmwe_theme.style.scss ***!
+  !*** multi ./src/js/gmwe_theme.script.js ./src/scss/gmwe_theme.style.scss ***!
   \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/gt/www/gmwe.hu.lo/web/themes/custom/gmwe_theme/src/js/gmwe_theme.script.js */"./src/js/gmwe_theme.script.js");
-module.exports = __webpack_require__(/*! /home/gt/www/gmwe.hu.lo/web/themes/custom/gmwe_theme/src/sass/gmwe_theme.style.scss */"./src/sass/gmwe_theme.style.scss");
+module.exports = __webpack_require__(/*! /home/gt/www/gmwe.hu.lo/web/themes/custom/gmwe_theme/src/scss/gmwe_theme.style.scss */"./src/scss/gmwe_theme.style.scss");
 
 
 /***/ })

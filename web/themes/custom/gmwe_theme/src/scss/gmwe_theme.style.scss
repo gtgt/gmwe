@@ -6,7 +6,7 @@
 @import "~bootstrap/scss/functions";
 
 @import "minty/variables";
-@import "base/variables";
+@import "variables";
 
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/print";
@@ -55,9 +55,7 @@
 
 // Layout
 // -----------------------------------------------------------------------------
-@import "layout/page.header";
-@import "layout/page.content";
-@import "layout/page.footer";
+@import "layout/page";
 
 // Component
 // -----------------------------------------------------------------------------

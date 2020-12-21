@@ -1,0 +1,51 @@
+uuid:
+  -
+    value: a80d030b-360a-4c89-9042-4fd79f6ef734
+langcode:
+  -
+    value: hu
+type:
+  -
+    target_id: daycare-group_node-event
+    target_type: group_content_type
+    target_uuid: 620f21a2-d583-4112-9584-d041723c7ddb
+uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+gid:
+  -
+    target_type: group
+    target_uuid: 4a6250d1-9dfc-4222-b4d1-4cadd3ce02fc
+entity_id:
+  -
+    target_type: node
+    target_uuid: 4fd76578-cd38-4ada-9903-35c3a78168b5
+label:
+  -
+    value: Takarítás
+created:
+  -
+    value: '2020-12-21T00:59:11+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2020-12-21T00:59:11+00:00'
+    format: 'Y-m-d\TH:i:sP'
+path:
+  -
+    alias: null
+    pid: null
+    langcode: hu
+default_langcode:
+  -
+    value: true
+_content_sync:
+  entity_type: group_content
+  entity_dependencies:
+    user:
+      - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
+    group:
+      - group.daycare.4a6250d1-9dfc-4222-b4d1-4cadd3ce02fc
+    node:
+      - node.event.4fd76578-cd38-4ada-9903-35c3a78168b5

@@ -1,0 +1,12 @@
+uuid: 9a5531e8-2a21-467e-95b8-37f4c0168d7c
+langcode: hu
+status: true
+dependencies: {  }
+id: default
+label: 'Írjon nekünk!'
+recipients:
+  - gt@gtdev.eu
+reply: ''
+weight: 0
+message: ''
+redirect: ''

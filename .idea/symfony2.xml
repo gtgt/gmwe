@@ -3,5 +3,11 @@
   <component name="Symfony2PluginSettings">
     <option name="pluginEnabled" value="true" />
     <option name="twigBundleNamespaceSupport" value="false" />
+    <option name="twigNamespaces">
+      <list>
+        <twig_namespace custom="true" namespace="radix" namespaceType="ADD_PATH" path="web/themes/contrib/radix/src/components" />
+        <twig_namespace custom="true" namespace="gmwe_theme" namespaceType="ADD_PATH" path="web/themes/custom/gmwe_theme/src/components" />
+      </list>
+    </option>
   </component>
 </project>

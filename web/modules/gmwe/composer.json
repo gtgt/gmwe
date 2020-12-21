@@ -1,0 +1,8 @@
+{
+    "name": "drupal/gmwe",
+    "description": "Helper module for GMWE project",
+    "type": "drupal-module",
+    "require": {
+        "ext-dom": "*"
+    }
+}

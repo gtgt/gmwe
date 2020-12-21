@@ -18,11 +18,11 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: 'page/showcase[node:nid]'
+  file_directory: page/showcase
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: 900x900
-  min_resolution: 900x601
+  min_resolution: 900x480
   alt_field: false
   alt_field_required: false
   title_field: false

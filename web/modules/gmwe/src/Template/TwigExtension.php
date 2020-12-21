@@ -1,0 +1,77 @@
+<?php
+namespace Drupal\gmwe\Template;
+
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFunction;
+
+class TwigExtension extends AbstractExtension {
+  private const DEFAULT_OPTIONS = [
+    'fontFamily' => 'sans-serif',
+    'fontWeight' => 'bold',
+    'bgColor' => '#ddd',
+    'textColor' => 'rgba(0,0,0,0.5)',
+  ];
+
+  public function getFunctions(): array
+  {
+    return [
+      new TwigFunction('img_placeholder', [$this, 'getSvgPlaceholder'], ['is_safe' => ['html']]),
+      new TwigFunction('img_placeholder_uri', [$this, 'getSvgPlaceholderUri']),
+    ];
+  }
+
+  public function getSvgPlaceholder(int $width = 300, int $height = 150, array $options = []): string
+  {
+    $options = array_replace(self::DEFAULT_OPTIONS, $options);
+    $options += [
+      'fontSize' => $fontSize = floor(min($width, $height) * 0.2),
+      'dy' => $fontSize * 0.35,
+      'text' => sprintf('%dx%d', $width, $height),
+    ];
+
+    $doc = new \DOMDocument('1.0');
+
+    // svg element
+    $svgElement = $doc->createElement('svg');
+    $svgElement->setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+    $svgElement->setAttribute('width', (string) $width);
+    $svgElement->setAttribute('height', (string) $height);
+    $svgElement->setAttribute('viewBox', "0 0 $width $height");
+    if ($class = $options['class'] ?? null) {
+      $svgElement->setAttribute('class', $class);
+    }
+
+    // rect element
+    $rectElement = $doc->createElement('rect');
+    $rectElement->setAttribute('fill', $options['bgColor']);
+    $rectElement->setAttribute('width', (string) $width);
+    $rectElement->setAttribute('height', (string) $height);
+
+    $svgElement->appendChild($rectElement);
+
+    // text element
+    if ($text = $options['text'] ?? null) {
+      $textElement = $doc->createElement('text');
+      $textElement->setAttribute('fill', $options['textColor']);
+      $textElement->setAttribute('font-family', $options['fontFamily']);
+      $textElement->setAttribute('font-size', (string) $options['fontSize']);
+      $textElement->setAttribute('font-weight', (string) $options['fontWeight']);
+      $textElement->setAttribute('dy', (string) $options['dy']);
+      $textElement->setAttribute('x', '50%');
+      $textElement->setAttribute('y', '50%');
+      $textElement->setAttribute('text-anchor', 'middle');
+      $textElement->appendChild($doc->createTextNode($text));
+
+      $svgElement->appendChild($textElement);
+    }
+
+    $doc->appendChild($svgElement);
+
+    return trim($doc->saveHTML());
+  }
+
+  public function getSvgPlaceholderUri(int $width = 300, int $height = 150, array $options = []): string
+  {
+    return sprintf('data:image/svg+xml;charset=UTF-8,%s', rawurlencode($this->getSvgPlaceholder($width, $height, $options)));
+  }
+}

@@ -432,7 +432,7 @@ display:
   page_2:
     display_plugin: page
     id: page_2
-    display_title: 'Page - Past'
+    display_title: 'Oldal - Korábbi'
     position: 1
     display_options:
       display_extenders: {  }
@@ -535,7 +535,7 @@ display:
       display_description: ''
       menu:
         type: tab
-        title: Past
+        title: Korábbi
         description: ''
         expanded: false
         parent: ''
