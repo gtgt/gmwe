@@ -32,9 +32,6 @@
       {% endif %}
     {% endblock %}
   {% endembed %}
-  {% if not logged_in %}
-    <a href="/user/login" class="use-ajax" data-dialog-options="{{ {width: '30%'}|json_encode }}" data-dialog-renderer="off_canvas" data-dialog-type="dialog">Review Application</a>
-  {% endif %}
 
   {% block page_before %}{% endblock %}
   <main class="flex-grow-1{% if not is_front %} pb-5{% endif %}">

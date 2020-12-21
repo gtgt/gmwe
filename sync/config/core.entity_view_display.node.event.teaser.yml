@@ -1,6 +1,6 @@
 uuid: c96b761b-c3dc-4c11-97f0-46377944aacd
 langcode: hu
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
@@ -10,7 +10,7 @@ dependencies:
   module:
     - field_layout
     - layout_discovery
-    - smart_date
+    - smart_date_recur
     - text
     - user
 third_party_settings:
@@ -28,23 +28,28 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 2
+    weight: 1
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
   field_when:
-    type: smartdate_default
-    weight: 1
+    type: smartdate_recurring
+    weight: 0
     region: content
     label: inline
     settings:
-      format: default
-      format_type: medium
       timezone_override: ''
+      format: default
+      past_display: '0'
+      upcoming_display: '1'
+      force_chronological: false
+      add_classes: 0
+      show_next: false
+      format_type: medium
     third_party_settings: {  }
   links:
-    weight: 0
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }

@@ -19,7 +19,7 @@ regions:
 libraries:
   - radix/style
   - gmwe_theme/style
-  - core/drupal.dialog.off_canvas
+#  - core/drupal.dialog.off_canvas
 
 libraries-override:
   radix/bootstrap: false

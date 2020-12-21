@@ -162,6 +162,11 @@
             ]
         }
     },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\gmwe\\": "web/modules/gmwe/src/"
+        }
+    },
     "scripts": {
         "watch": "yarn --cwd web/themes/custom/gmwe_theme watch"
     }

@@ -1,0 +1,20 @@
+uuid: 2df1e497-3fa5-4cf6-9c39-775ef2d5fab6
+langcode: hu
+status: true
+dependencies:
+  module:
+    - gmwe
+  theme:
+    - gmwe_theme
+id: login_button
+theme: gmwe_theme
+region: navbar_right
+weight: 0
+provider: null
+plugin: gmwe_login_block
+settings:
+  label_display: '0'
+  id: gmwe_login_block
+  label: Bejelentkezés
+  provider: gmwe
+visibility: {  }

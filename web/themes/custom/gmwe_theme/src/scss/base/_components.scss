@@ -43,10 +43,10 @@ nav.navbar {
       left: $navbar-nav-link-padding-x * 0.25;
     }
   }
-  &.bg-transparent {
+  &.nav-transparent {
     .navbar-nav > .nav-item {
       > .nav-link:before {
-        background-color: $dropdown-link-hover-bg;
+        background-color: lighten($dropdown-link-hover-bg, 10%);
       }
     }
   }
