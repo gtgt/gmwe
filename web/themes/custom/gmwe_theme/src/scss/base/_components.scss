@@ -17,23 +17,30 @@ nav.navbar {
         border-color: transparent;
         border-width: $dropdown-border-width $dropdown-border-width 0 $dropdown-border-width;
 
-        &:before {
+        &:after {
           content: "";
           position: absolute;
           width: 100%;
           height: 2px;
           bottom: 0;
           left: 0;
+          margin: 0;
+          border: none;
           background-color: $navbar-dark-active-color;
           visibility: hidden;
           transform: scaleX(0);
           transition: all 0.3s ease-in-out 0s;
         }
       }
-      &.active, &:hover {
-        > .nav-link:before {
+      &.active, &:hover, &.dropdown.show {
+        > .nav-link:after {
           visibility: visible;
           transform: scaleX(1);
+        }
+      }
+      &.dropdown.show {
+        > .nav-link:after {
+          background-color: $dropdown-bg;
         }
       }
     }
@@ -45,7 +52,7 @@ nav.navbar {
   }
   &.nav-transparent {
     .navbar-nav > .nav-item {
-      > .nav-link:before {
+      > .nav-link:after {
         background-color: lighten($dropdown-link-hover-bg, 10%);
       }
     }

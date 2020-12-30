@@ -1,0 +1,7 @@
+name: Plugin Form Alter
+type: module
+description: Provides an annotation Plugin to be used as replacement of hook_form_alter().
+# core: 8/9.x
+package: Development
+
+core_version_requirement: ^8 || ^9

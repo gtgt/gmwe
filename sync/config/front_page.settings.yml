@@ -1,9 +1,0 @@
-enable: 0
-rid_anonymous:
-  enabled: '1'
-  weigth: '1'
-  path: front
-rid_authenticated:
-  enabled: '1'
-  weigth: '0'
-  path: group/parents

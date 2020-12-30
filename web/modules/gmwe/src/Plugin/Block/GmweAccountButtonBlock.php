@@ -2,11 +2,9 @@
 
 namespace Drupal\gmwe\Plugin\Block;
 
-use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Url;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -14,12 +12,12 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  * Provides an off-canvas 'Login' Block.
  *
  * @Block(
- *   id = "gmwe_login_block",
- *   admin_label = @Translation("User login"),
+ *   id = "gmwe_account_button_block",
+ *   admin_label = @Translation("Account button"),
  *   category = "GMWE",
  * )
  */
-class LoginButtonBlock extends BlockBase implements ContainerFactoryPluginInterface {
+class GmweAccountButtonBlock extends BlockBase implements ContainerFactoryPluginInterface {
 
   /**
    * The route match.
@@ -70,32 +68,30 @@ class LoginButtonBlock extends BlockBase implements ContainerFactoryPluginInterf
   /**
    * {@inheritdoc}
    */
-  protected function blockAccess(AccountInterface $account) {
-    $route_name = $this->routeMatch->getRouteName();
-    if ($account->isAnonymous() && !in_array($route_name, [
-        'user.login',
-        'user.logout',
-      ])) {
-      return AccessResult::allowed()
-        ->addCacheContexts(['route.name', 'user.roles:anonymous']);
-    }
-    return AccessResult::forbidden();
-  }
-
-  /**
-   * {@inheritdoc}
-   */
   public function build() {
-    return [
-      '#attributes' => [
-        'class' => 'navbar-nav',
+    $button = [
+      '#type' => 'link',
+      '#wrapper_attributes' => [
+        'class' => ['nav-item', 'mdi', 'mdi-24px', 'mdi-light'],
       ],
-      'button' => [
+      '#attributes' => [
+        'class' => ['nav-link'],
+      ],
+      '#attached' => [
+        'library' => [
+          'gmwe/icons',
+        ],
+      ]
+    ];
+    if (\Drupal::currentUser()->isAnonymous()) {
+      $button = array_merge_recursive($button, [
         '#title' => t('User login'),
-        '#type' => 'link',
         '#url' => Url::fromRoute('user.login'),
+        '#wrapper_attributes' => [
+          'class' => ['mdi-account-circle'],
+        ],
         '#attributes' => [
-          'class' => ['nav-link', 'use-ajax'],
+          'class' => ['use-ajax'],
           'data-dialog-renderer' => 'off_canvas',
           'data-dialog-type' => 'dialog',
           'data-dialog-options' => '{"width":"30%"}',
@@ -104,6 +100,28 @@ class LoginButtonBlock extends BlockBase implements ContainerFactoryPluginInterf
           'library' => [
             'core/drupal.dialog.ajax',
           ],
+        ]
+      ]);
+    } else {
+      $button = array_merge_recursive($button, [
+        '#title' => t('Member center'),
+        '#url' => Url::fromRoute('gmwe.group.index'),
+        '#wrapper_attributes' => [
+          'class' => ['mdi-account-circle-outline'],
+        ],
+      ]);
+    }
+    return [
+      '#attributes' => [
+        'class' => 'login-button',
+      ],
+      'item' => [
+        '#theme' => 'item_list',
+        '#attributes' => [
+          'class' => ['navbar-nav'],
+        ],
+        '#items' => [
+          $button,
         ],
       ],
     ];

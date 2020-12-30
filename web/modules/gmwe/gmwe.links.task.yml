@@ -1,0 +1,19 @@
+gmwe.group.index:
+  title: 'Home'
+  route_name: gmwe.group.index
+  base_route: gmwe.group.index
+
+gmwe.group.events:
+  title: 'Events'
+  route_name: gmwe.group.events
+  base_route: gmwe.group.index
+#gmwe.group.events.new:
+#  route_name: gmwe.group.events.new
+#  title: 'New'
+#  parent_id: gmwe.group.events
+
+gmwe.group.documents:
+  route_name: gmwe.group.documents
+  title: 'Files'
+  base_route: gmwe.group.index
+

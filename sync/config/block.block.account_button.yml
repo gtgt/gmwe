@@ -1,4 +1,4 @@
-uuid: 2df1e497-3fa5-4cf6-9c39-775ef2d5fab6
+uuid: 23f78c42-8d52-46cb-8d0f-040581f55b33
 langcode: hu
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - gmwe
   theme:
     - gmwe_theme
-id: login_button
+id: account_button
 theme: gmwe_theme
 region: navbar_right
 weight: 0
 provider: null
-plugin: gmwe_login_block
+plugin: gmwe_account_button_block
 settings:
   label_display: '0'
-  id: gmwe_login_block
-  label: Bejelentkezés
+  id: gmwe_account_button_block
+  label: 'Felhasználói fiók gomb'
   provider: gmwe
 visibility: {  }

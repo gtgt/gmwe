@@ -2,3 +2,7 @@ name: GMWE
 type: module
 description: 'Helper for GMWE site'
 core_version_requirement: ^8 || ^9
+dependencies:
+  - pluginformalter
+libraries:
+  - gmwe/icons

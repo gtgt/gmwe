@@ -3,7 +3,7 @@ langcode: hu
 status: true
 dependencies: {  }
 id: default
-label: 'Írjon nekünk!'
+label: Kapcsolat
 recipients:
   - gt@gtdev.eu
 reply: ''
