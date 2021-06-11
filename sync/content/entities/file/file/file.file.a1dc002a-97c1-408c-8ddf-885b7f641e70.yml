@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: a1dc002a-97c1-408c-8ddf-885b7f641e70
+langcode:
+  -
+    value: hu
+uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+filename:
+  -
+    value: bejarat.jpg
+uri:
+  -
+    value: 'public://page/showcase/bejarat.jpg'
+    url: /sites/default/files/page/showcase/bejarat.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 389274
+status:
+  -
+    value: true
+created:
+  -
+    value: '2021-06-05T08:37:37+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-06-05T08:37:39+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563

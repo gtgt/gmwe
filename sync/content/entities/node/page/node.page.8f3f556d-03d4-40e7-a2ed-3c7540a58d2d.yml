@@ -56,8 +56,9 @@ body:
     processed: "<div class=\"txtNew\" id=\"WRchTxt-7afd4b6-3731-dc57-876f-12128314ab2e\">\n<h2 class=\"title\"><span><span>Kedves Érdeklődő!</span></span></h2>\n\n<p>Az Dr. Göllner Mária Waldorf Egyesület Óvoda minden év tavaszán várja az új gyermekek jelentkezését. A jelentkezés határidejéről és a beiratkozás időpontjáról külön hirdetményben értesítünk benneteket.</p>\n\n<p>Akik szívesen csatlakoznának hozzánk, azoktól várjuk az alábbi linkről letölthető, kitöltött jelentkezési lapot e-mailben vagy postai úton:</p>\n\n<p>A jelentkezési lap mellett kérjük továbbá a szülői felügyeleti jogról szóló nyilatkozat elküldését is.</p>\n\n<p>Az óvodával kapcsolatos kérdésekre szívesen válaszolunk az alábbi elérhetőségeken:</p>\n\n<h2 class=\"title\">Óvodalátogatás</h2>\n\n<p>Előzetes időpont-egyeztetés alapján el tudtok látogatni hozzánk megnézni az óvodánkat és beszélgetni az óvónőkkel.</p>\n\n<p>Az óvodában azonban csak az óvodai életen kívül (alvásidőben vagy a nap lezárása után) tudunk érdeklődőket fogadni, hogy ne zavarjuk meg a gyermekeket, és az óvónők teljes jelenlétükkel a csoport felé tudjanak fordulni.</p>\n\n<p>Folyamatosan követjük a járványügyi intézkedéseket, melyek kihatnak a látogatás és a beiratkozás folyamatára is.\_ Az óvónőkkel való egyeztetés során informálódhattok arról, hogy az aktuális szabályozások hogyan engedik vagy korlátozzák a fentiek megvalósulását.</p>\n\n<p>Köszönjük a megértéseteket!</p>\n</div>"
     summary: ''
     summary_processed: ''
-field_recommendation: {  }
+field_showcase_body: {  }
 field_showcase_picture: {  }
+field_showcase_title: {  }
 _content_sync:
   entity_type: node
   entity_dependencies:

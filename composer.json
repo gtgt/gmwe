@@ -102,9 +102,7 @@
         },
         "patches": {
             "drupal/devel": {
-                "Fix webprofiler twig html dumper": "patch/devel/339-twig-html-dumper.patch",
-                "Fix webprofiler event dispatcher": "patch/devel/344-event-dispatcher.patch",
-                "Support old and new call of active theme's styleSheetsRemove() method.": "patch/devel/xxx-stylesheets-remove-method.patch"
+                "Fix webprofiler twig html dumper": "patch/devel/339-twig-html-dumper.patch"
             }
         },
         "installer-types": [
@@ -137,6 +135,9 @@
             ],
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
+            ],
+            "sync/config": [
+                "type:drupal-config"
             ]
         },
         "drupal-core-project-message": {
@@ -167,6 +168,8 @@
         }
     },
     "scripts": {
-        "watch": "yarn --cwd web/themes/custom/gmwe_theme watch"
+        "watch": "yarn --cwd web/themes/custom/gmwe_theme watch",
+        "build-dev": "yarn --cwd web/themes/custom/gmwe_theme dev",
+        "build-prod": "yarn --cwd web/themes/custom/gmwe_theme prod"
     }
 }

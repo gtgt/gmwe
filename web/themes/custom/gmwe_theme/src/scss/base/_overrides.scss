@@ -1,3 +1,17 @@
+.navbar {
+  .container {
+    position: relative;
+    .navbar-toggler {
+      position: absolute;
+      right: $navbar-nav-link-padding-x / 2 - $navbar-toggler-padding-x;
+      top: $navbar-nav-link-padding-y / 2 - $navbar-toggler-padding-y;
+      z-index: $zindex-fixed + 10;
+      border: none;
+      outline: none;
+    }
+  }
+}
+
 .vertical-tabs__panes {
   > .card {
     border: none;

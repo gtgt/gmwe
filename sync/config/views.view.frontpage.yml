@@ -285,11 +285,11 @@ display:
       tags:
         - 'config:core.entity_view_display.node.event.default'
         - 'config:core.entity_view_display.node.event.teaser'
+        - 'config:core.entity_view_display.node.page.teaser'
         - 'config:core.entity_view_display.node.news.default'
         - 'config:core.entity_view_display.node.news.teaser'
         - 'config:core.entity_view_display.node.page.default'
         - 'config:core.entity_view_display.node.page.showcase'
-        - 'config:core.entity_view_display.node.page.teaser'
   feed_1:
     display_plugin: feed
     id: feed_1
@@ -528,7 +528,7 @@ display:
       style:
         type: default
         options:
-          row_class: row
+          row_class: 'row showcase-row'
           default_row_class: false
           uses_fields: false
       row:

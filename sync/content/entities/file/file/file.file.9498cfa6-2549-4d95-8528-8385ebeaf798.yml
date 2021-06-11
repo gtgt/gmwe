@@ -1,0 +1,39 @@
+uuid:
+  -
+    value: 9498cfa6-2549-4d95-8528-8385ebeaf798
+langcode:
+  -
+    value: hu
+uid:
+  -
+    target_type: user
+    target_uuid: bb0c5308-a93b-4976-a5ad-4c562290b563
+filename:
+  -
+    value: gombolyag.jpg
+uri:
+  -
+    value: 'public://page/showcase/gombolyag.jpg'
+    url: /sites/default/files/page/showcase/gombolyag.jpg
+filemime:
+  -
+    value: image/jpeg
+filesize:
+  -
+    value: 365140
+status:
+  -
+    value: true
+created:
+  -
+    value: '2021-06-05T08:15:28+00:00'
+    format: 'Y-m-d\TH:i:sP'
+changed:
+  -
+    value: '2021-06-05T08:15:31+00:00'
+    format: 'Y-m-d\TH:i:sP'
+_content_sync:
+  entity_type: file
+  entity_dependencies:
+    user:
+      - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563

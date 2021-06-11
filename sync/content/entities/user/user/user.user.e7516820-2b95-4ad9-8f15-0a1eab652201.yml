@@ -28,6 +28,7 @@ default_langcode:
   -
     value: true
 entitygroupfield: {  }
+field_picture: {  }
 _content_sync:
   entity_type: user
   is_anonymous: true

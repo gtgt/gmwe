@@ -34,7 +34,7 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2020-12-20T23:47:58+00:00'
+    value: '2021-06-05T08:14:04+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
@@ -61,7 +61,14 @@ field_showcase_body:
     value: "<ul>\r\n\t<li>A szeretet és a melegség</li>\r\n\t<li>Olyan környezet, amely táplálja az érzékszervi nevelést</li>\r\n\t<li>Kreatív és művészi élmények</li>\r\n\t<li>Értelmes felnőtt tevékenység, melyet utánozni lehet</li>\r\n\t<li>Szabad, fantáziadús játék</li>\r\n\t<li>A gyermekkori erők védelmezése</li>\r\n\t<li>hála, tisztelet és csoda</li>\r\n\t<li>Öröm, humor, és boldogság</li>\r\n\t<li>A felnőtt nevelők állandó fejlődési úton legyenek</li>\r\n</ul>\r\n"
     format: html
     processed: "<ul>\n\t<li>A szeretet és a melegség</li>\n\t<li>Olyan környezet, amely táplálja az érzékszervi nevelést</li>\n\t<li>Kreatív és művészi élmények</li>\n\t<li>Értelmes felnőtt tevékenység, melyet utánozni lehet</li>\n\t<li>Szabad, fantáziadús játék</li>\n\t<li>A gyermekkori erők védelmezése</li>\n\t<li>hála, tisztelet és csoda</li>\n\t<li>Öröm, humor, és boldogság</li>\n\t<li>A felnőtt nevelők állandó fejlődési úton legyenek</li>\n</ul>"
-field_showcase_picture: {  }
+field_showcase_picture:
+  -
+    alt: ''
+    title: ''
+    width: 900
+    height: 480
+    target_type: file
+    target_uuid: 4efc2eb5-c248-478c-bd50-090518b074d0
 field_showcase_title:
   -
     value: 'Waldorf-kisgyermekkori nevelés?'
@@ -70,6 +77,8 @@ _content_sync:
   entity_dependencies:
     user:
       - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
+    file:
+      - file.file.4efc2eb5-c248-478c-bd50-090518b074d0
 path:
   -
     alias: /rolunk/ovodapedagogia

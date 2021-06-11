@@ -21,7 +21,7 @@ $settings['file_chmod_file'] = 0664;
 $settings['file_private_path'] = $app_root . '/../private';
 
 $settings['trusted_host_patterns'] = [
-  '^gmwe\.hu(\.lo)?$',
+  '^(www\.)?gmwe(\.kani)?\.(hu|online)(\.lo)?$',
 ];
 
 if (substr($_SERVER['HTTP_HOST'], -3) === '.lo') {

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="kani.hu.ssh" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="kani.hu.ssh">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/gmwe.online" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/ovi.txt" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

@@ -36,14 +36,14 @@ rediscover:
     value: false
 weight:
   -
-    value: 1
+    value: 0
 expanded:
   -
     value: false
 parent: {  }
 changed:
   -
-    value: '2020-12-03T09:12:36+00:00'
+    value: '2021-02-26T02:19:49+00:00'
     format: 'Y-m-d\TH:i:sP'
 default_langcode:
   -

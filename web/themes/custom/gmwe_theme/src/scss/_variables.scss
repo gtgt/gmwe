@@ -13,6 +13,9 @@ $enable-shadows: true;
 
 // stylelint-disable value-keyword-case
 $font-family-sans-serif: "Roboto", $font-family-sans-serif;
+$font-family-cursive: "Tillana", cursive;
+$headings-font-family: null;
+$font-family-base: $font-family-cursive;
 // stylelint-enable value-keyword-case
 
 
@@ -23,9 +26,11 @@ $h4-font-size: $font-size-base * 1.30;
 $h5-font-size: $font-size-base * 1.15;
 
 $display1-size: 5.5rem;
-$display2-size: 5rem;
-$display3-size: 4rem;
-$display4-size: 3rem;
+$display2-size: 4.5rem;
+$display3-size: 3.5rem;
+$display4-size: 2.5rem;
+
+$headings-color: inherit;
 
 
 // Navbar
@@ -33,6 +38,11 @@ $navbar-padding-y: 0;
 $navbar-dark-color: rgba($white, .8);
 $navbar-nav-link-padding-x: 1.5rem;
 $navbar-nav-link-padding-y: 1rem;
+
+$navbar-toggler-padding-y: 0;
+$navbar-toggler-padding-x: 0;
+
+$zindex-fixed: 1000;
 
 // Dropdowns
 //
@@ -60,3 +70,7 @@ $breadcrumb-margin-bottom: 0;
 
 $jumbotron-color: $white;
 $jumbotron-padding: 6rem;
+
+$blockquote-font-size: 1.2rem;
+$blockquote-small-color: inherit;
+$blockquote-small-font-size: 95%;

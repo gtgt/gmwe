@@ -14,11 +14,11 @@
 
 header#hero {
   width: 100%;
-  min-height: 60vh;
-  margin-bottom: -1rem; // ???
+  min-height: 78vh;
+  //margin-bottom: -1rem; // ???
   padding-top: $font-size-base * $line-height-base + $navbar-nav-link-padding-y * 2; // height of navbar...
   position: relative;
-  background: $gray-800 url('../../assets/img/front/bg-masthead.jpg') no-repeat fixed center center;
+  background: $gray-800 url('../../assets/img/front/bg-masthead.jpg') no-repeat fixed center bottom;
   @include background-cover;
   color: $jumbotron-color;
   h1 {
@@ -31,7 +31,7 @@ header#hero {
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.2;
+    opacity: 0.6;
   }
 }
 .features-icons {
@@ -57,7 +57,7 @@ header#hero {
 .call-to-action {
   position: relative;
   background-color: $gray-800;
-  background: url('../../assets/img/front/bg-masthead.jpg') no-repeat fixed center center;
+  background: url('../../assets/img/front/bg-footer.jpg') no-repeat fixed center top;
   @include background-cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -71,21 +71,34 @@ header#hero {
     opacity: 0.3;
   }
 }
-.showcase {
-  .showcase-text {
-    padding: 1rem;
-  }
-  .showcase-img {
-    min-height: 30rem;
-    max-height: 30rem;
-    overflow: hidden;
-    img {
-      min-width: 100%;
+.showcase-row {
+  .showcase {
+    .showcase-text {
+      padding: 1rem;
+    }
+
+    .showcase-img {
+      min-height: 30rem;
+      max-height: 30rem;
+      overflow: hidden;
+
+      img {
+        min-width: 100%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .showcase-text {
+        padding: 3rem;
+      }
     }
   }
-  @media (min-width: 768px) {
+  &:nth-child(odd) {
     .showcase-text {
-      padding: 3rem;
+      order: 1;
+    }
+    .showcase-img {
+      order: 2;
     }
   }
 }

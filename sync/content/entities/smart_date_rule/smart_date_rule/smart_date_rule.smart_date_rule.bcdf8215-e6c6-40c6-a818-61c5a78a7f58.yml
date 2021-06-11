@@ -1,0 +1,163 @@
+uuid:
+  -
+    value: bcdf8215-e6c6-40c6-a818-61c5a78a7f58
+rule:
+  -
+    value: 'RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=2021-06-13T235959'
+freq:
+  -
+    value: WEEKLY
+limit:
+  -
+    value: UNTIL=2021-06-13
+parameters:
+  -
+    value: BYDAY=SA
+unlimited:
+  -
+    value: false
+entity_type:
+  -
+    value: node
+bundle:
+  -
+    value: event
+field_name:
+  -
+    value: field_when
+start:
+  -
+    value: '2020-09-04T22:00:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+end:
+  -
+    value: '2020-09-06T21:59:00+00:00'
+    format: 'Y-m-d\TH:i:sP'
+instances:
+  -
+    data:
+      1:
+        value: 1599256800
+        end_value: 1599429540
+      2:
+        value: 1599861600
+        end_value: 1600034340
+      3:
+        value: 1600466400
+        end_value: 1600639140
+      4:
+        value: 1601071200
+        end_value: 1601243940
+      5:
+        value: 1601676000
+        end_value: 1601848740
+      6:
+        value: 1602280800
+        end_value: 1602453540
+      7:
+        value: 1602885600
+        end_value: 1603058340
+      8:
+        value: 1603490400
+        end_value: 1603666740
+      9:
+        value: 1604098800
+        end_value: 1604271540
+      10:
+        value: 1604703600
+        end_value: 1604876340
+      11:
+        value: 1605308400
+        end_value: 1605481140
+      12:
+        value: 1605913200
+        end_value: 1606085940
+      13:
+        value: 1606518000
+        end_value: 1606690740
+      14:
+        value: 1607122800
+        end_value: 1607295540
+      15:
+        value: 1607727600
+        end_value: 1607900340
+      16:
+        value: 1608332400
+        end_value: 1608505140
+      17:
+        value: 1608937200
+        end_value: 1609109940
+      18:
+        value: 1609542000
+        end_value: 1609714740
+      19:
+        value: 1610146800
+        end_value: 1610319540
+      20:
+        value: 1610751600
+        end_value: 1610924340
+      21:
+        value: 1611356400
+        end_value: 1611529140
+      22:
+        value: 1611961200
+        end_value: 1612133940
+      23:
+        value: 1612566000
+        end_value: 1612738740
+      24:
+        value: 1613170800
+        end_value: 1613343540
+      25:
+        value: 1613775600
+        end_value: 1613948340
+      26:
+        value: 1614380400
+        end_value: 1614553140
+      27:
+        value: 1614985200
+        end_value: 1615157940
+      28:
+        value: 1615590000
+        end_value: 1615762740
+      29:
+        value: 1616194800
+        end_value: 1616367540
+      30:
+        value: 1616799600
+        end_value: 1616968740
+      31:
+        value: 1617400800
+        end_value: 1617573540
+      32:
+        value: 1618005600
+        end_value: 1618178340
+      33:
+        value: 1618610400
+        end_value: 1618783140
+      34:
+        value: 1619215200
+        end_value: 1619387940
+      35:
+        value: 1619820000
+        end_value: 1619992740
+      36:
+        value: 1620424800
+        end_value: 1620597540
+      37:
+        value: 1621029600
+        end_value: 1621202340
+      38:
+        value: 1621634400
+        end_value: 1621807140
+      39:
+        value: 1622239200
+        end_value: 1622411940
+      40:
+        value: 1622844000
+        end_value: 1623016740
+      41:
+        value: 1623448800
+        end_value: 1623621540
+_content_sync:
+  entity_type: smart_date_rule

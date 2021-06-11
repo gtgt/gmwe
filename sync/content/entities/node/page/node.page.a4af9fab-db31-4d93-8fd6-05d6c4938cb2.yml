@@ -34,14 +34,14 @@ created:
     format: 'Y-m-d\TH:i:sP'
 changed:
   -
-    value: '2020-12-20T21:21:18+00:00'
+    value: '2021-06-05T08:37:39+00:00'
     format: 'Y-m-d\TH:i:sP'
 promote:
   -
     value: true
 sticky:
   -
-    value: false
+    value: true
 default_langcode:
   -
     value: true
@@ -61,7 +61,14 @@ field_showcase_body:
     value: "<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\r\n\r\n<p>A Napkeleti Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>\r\n"
     format: html
     processed: "<p>A Waldorf-pedagógia elvei szerint működő óvodák többsége 4 éves kor fölötti gyerekeket fogadnak. Magunk is úgy tapasztaltuk, hogy a gyerekek nagy része valamikor 3 és 4 éves kora között válik óvodaéretté. Ugyanakkor napjaink életstílusa egyre ritkábban teszi lehetővé, hogy egy szülő a gyermeke 3 éves kora fölött is teljesen kiessen a foglalkoztatásból, így óvodánkba már kisebb gyerekeket is fogadunk.</p>\n\n<p>A Napkeleti Óvodában két csoport működik. Nagycsoportunk létszáma 25 fő, életkoruk 3,5 – 7 év, a csoportban két óvónő dolgozik. Kiscsoportunk családi napköziként működik, itt hat 2,5 – 3,5 éves korú gyermekkel van egy nevelő.</p>"
-field_showcase_picture: {  }
+field_showcase_picture:
+  -
+    alt: ''
+    title: ''
+    width: 900
+    height: 480
+    target_type: file
+    target_uuid: a1dc002a-97c1-408c-8ddf-885b7f641e70
 field_showcase_title:
   -
     value: Csoportjaink
@@ -70,6 +77,8 @@ _content_sync:
   entity_dependencies:
     user:
       - user.user.bb0c5308-a93b-4976-a5ad-4c562290b563
+    file:
+      - file.file.a1dc002a-97c1-408c-8ddf-885b7f641e70
 path:
   -
     alias: /csoportjaink

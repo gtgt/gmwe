@@ -35,7 +35,7 @@
 
   {% block page_before %}{% endblock %}
   <main class="flex-grow-1{% if not is_front %} pb-5{% endif %}">
-    {% if page.header %}
+    {% if not is_front and page.header %}
       <header class="page__header mb-3">
         <div class="{% block page_header_container_class %}container{% endblock %}">
           {{ page.header }}

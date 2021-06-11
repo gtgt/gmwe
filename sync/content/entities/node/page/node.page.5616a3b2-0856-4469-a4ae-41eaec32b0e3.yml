@@ -50,8 +50,9 @@ revision_translation_affected:
     value: true
 entitygroupfield: {  }
 body: {  }
-field_recommendation: {  }
+field_showcase_body: {  }
 field_showcase_picture: {  }
+field_showcase_title: {  }
 _content_sync:
   entity_type: node
   entity_dependencies:

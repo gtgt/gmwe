@@ -9,8 +9,6 @@ use Drupal\Core\Render\Element;
  */
 
 function gmwe_theme_preprocess_showcase(&$variables) {
-  $counter = &drupal_static(__FUNCTION__, 0);
-  $variables['counter'] = ++$counter;
   $variables['image_res'] = [900, 480];
   /** @var ContentEntityInterface|null $entity */
   $entity = NULL;
